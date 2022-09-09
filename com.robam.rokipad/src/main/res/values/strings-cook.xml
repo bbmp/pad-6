@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+         <string name="cook_prepare_recipe_text">备菜阶段</string>
+    <string name="cook_cooking_recipe_text">烹饪阶段</string>
+    <string name="cook_start_text">开始烹饪</string>
+    <string name="cook_finish_text">结束烹饪</string>
+    <string name="cook_next_text">下一步</string>
+    <string name="cook_stop_text">暂停</string>
+    <string name="cook_continue_text">继续</string>
+    <string name="cook_done_prepare_start_text">完成备菜后，点击开始烹饪</string>
+    <string name="cook_no_recipe_auto_cook_text">菜谱不支持自动烹饪</string>
+    <string name="cook_no_pot_available_text">没有可用的无人锅</string>
+    <string name="cook_no_stove_available_text">没有可用的灶具</string>
+    <string name="cook_pot_available_off_line_text">无人锅已离线</string>
+    <string name="cook_stove_unlocking__text">请在灶具上解锁</string>
+    <string name="cook_select_stove_head_text">烹饪即将开始，请选择您将要使用的炉头</string>
+    <string name="cook_adjust_device_text">根据当前步骤自动调节设备</string>
+    <string name="cook_device_fire_text">火力</string>
+    <string name="cook_device_temp_text">温度</string>
+    <string name="cook_device_volume_text">风量</string>
+    <string name="cook_recipe_step_wait_text">等待中</string>
+    <string name="cook_recipe_pre_step_text">备菜步骤</string>
+    <string name="cook_upcoming_start_recipe_text">即将开始</string>
+    <string name="cook_hm_model_text">切换手动模式</string>
+    <string name="cook_auto_model_text">切换自动模式</string>
+    <string name="cook_model_switch_text">手动模式暂不支持切换到自动模式</string>
+    <string name="cook_switcher_step_text">切换步骤将影响菜肴，是否切换？</string>
+    <string name="cook_switcher_text">切换</string>
+    <string name="cook_cook_finish_text">太棒了!</string>
+    <string name="cook_ok_finish_text">您已完成</string>
+    <string name="cook_know_text">知道了</string>
+    <string name="cook_exit_text">确定退出自动烹饪？</string>
+    <string name="cook_current_step_delayed_text">当前步骤延时</string>
+
+    <string name="cook_fan_stir_fry_text">爆炒</string>
+    <string name="cook_fan_season_text">强档</string>
+    <string name="cook_fan_weak_file_text">弱档</string>
+    <string name="cook_fan_close_level_text">关</string>
+
+    <string name="cook_czjg_text">炒炸酱坚果</string>
+    <string name="cook_rzjrjd_text">软炸煎肉煎蛋</string>
+    <string name="cook_bcbxfl_text">爆炒爆香辅料</string>
+    <string name="cook_gzpy_text">干炸泼油</string>
+    <string name="cook_load_finish_text">加载完成</string>
+    <string name="cook_not_more">没有更多了</string>
+    <string name="cook_recommend_recipe_text">推荐菜谱</string>
+    <string name="cook_stove_recipe_text">灶具菜谱</string>
+    <string name="cook_pot_recipe_text">无人锅菜谱</string>
+    <string name="cook_oven_recipe_text">电烤箱菜谱</string>
+    <string name="cook_steam_recipe_text">电蒸箱菜谱</string>
+    <string name="cook_wave_recipe_text">微波炉菜谱</string>
+    <string name="cook_search_recipe_text">搜索的菜谱</string>
+    <string name="cook_please_enter_keywords_text">请输入关键字</string>
+
+    <string name="cook_sorry_not_search_recipe_text">抱歉，未找到您搜索的菜谱</string>
+    <string name="cook_not_history_data_text">无历史数据</string>
+    <string name="cook_history_search_text">历史搜索:</string>
+    <string name="cook_broken_network_description_text">似乎已断开与互联网的连接</string>
+    <string name="cook_go_to_the_internet_text">去联网</string>
+    <string name="cook_unfinished_text">尚未完成开发，敬请期待智能烹饪</string>
+
+    <string name="cancel_time_text">是否取消当前定时？</string>
+
+</resources>

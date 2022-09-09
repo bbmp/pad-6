@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="168px"
+        android:layout_height="168px"
+        android:src="@mipmap/ic_robam_rq"
+        android:layout_gravity="center"
+        android:layout_marginTop="102px"
+        android:layout_centerInParent="true"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20px"
+        android:textColor="#888888"
+        android:layout_marginTop="24px"
+        android:text="@string/setting_model_after_service_wx_text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="26px"
+        android:layout_marginTop="79px"
+        android:textColor="@color/white"
+        android:text="@string/setting_model_after_service_text"/>
+
+</LinearLayout>

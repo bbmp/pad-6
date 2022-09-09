@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/stove_h_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/stove_head_gray"
+        android:layout_centerInParent="true"
+        />
+
+
+    <ImageView
+        android:id="@+id/stove_right_timer"
+        android:layout_above="@id/stove_h_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/stove_timer_gray"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        />
+
+    <TextView
+        android:id="@+id/right_time"
+        android:layout_above="@id/stove_h_right"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="44：00"
+        android:textSize="30sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="24dp"
+        />
+
+    <TextView
+        android:layout_above="@id/stove_right_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/stove_head_left"
+        android:textSize="20sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:id="@+id/fire_right_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="P6"
+        android:textColor="#666666"
+        android:textSize="44sp"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/r_left_decrease"
+        android:layout_toLeftOf="@id/stove_h_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/stove_fire_decrease_gray"
+        android:layout_marginRight="40dp"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/r_right_decrease"
+        android:layout_toRightOf="@id/stove_h_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/stove_fire_add_gray"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/stove_close_right"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/stove_h_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/stove_power_gray"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/right_power_status"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/stove_close_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stove_close"
+        android:textSize="20sp"
+        android:textColor="#666666"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

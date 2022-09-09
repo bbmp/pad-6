@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@mipmap/ic_center_bg"
+              android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/setting_model_guide"
+            android:textColor="@color/white"
+            android:textSize="28px"/>
+
+
+            <com.robam.rokipad.view.RoundImageView
+                android:id="@+id/iv_preview"
+                android:layout_width="520dp"
+                android:layout_height="310dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape_radius"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="75dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/setting_model_netTip_step_one"
+            android:textColor="@color/white"
+            android:textSize="26px"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/setting_model_netTip_step_two"
+            android:textColor="@color/white"
+            android:textSize="26px"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/setting_model_netTip_step_three"
+            android:textColor="@color/white"
+            android:textSize="26px"/>
+
+        <com.robam.rokipad.ui.view.setting.downloadbutton.AnimDownloadProgressButton
+            android:id="@+id/anim_btn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            app:progressbtn_background_color="#3468d3"
+            app:progressbtn_background_second_color="#666666"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

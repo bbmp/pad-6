@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="392px"
+              android:layout_height="match_parent"
+              android:background="@drawable/shape_layout_bg"
+              android:layout_marginLeft="12px"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="26px">
+
+        <ImageView
+            android:id="@+id/iv_device_ic"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="3px"
+            android:src="@mipmap/ic_fan_device"/>
+
+        <TextView
+            android:id="@+id/tv_device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=""
+            android:layout_marginBottom="10dp"
+            android:textSize="30px"
+            android:layout_marginLeft="76px"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_share_control_power"
+            android:layout_width="171px"
+            android:layout_height="44px"
+            android:gravity="center"
+            android:text="@string/setting_model_share_control_power_text"
+            android:background="@drawable/shape_item_bg"
+            android:textColor="@color/white"
+            android:textSize="24px"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16px"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/setting_model_device_dt_text"
+            android:textSize="24px"
+            android:layout_marginLeft="30px"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_device_dt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="8236S"
+            android:textSize="24px"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/setting_model_device_code_text"
+            android:textSize="24px"
+            android:layout_marginLeft="30px"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_device_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textSize="24px"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/setting_model_device_version_text"
+            android:textSize="24px"
+            android:layout_marginLeft="30px"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_device_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textSize="24px"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31px"
+        android:layout_marginLeft="30px"
+        android:textSize="20px"
+        android:textColor="#888888"
+        android:text="@string/setting_model_link_user_text"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_device"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="16px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never" />
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="256px"
+        android:layout_height="120px"
+        android:layout_marginLeft="160px"
+        android:layout_marginTop="30px"
+        android:src="@mipmap/ic_pot_cookingcomplete" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="52px"
+        android:layout_marginTop="15px"
+        android:text="烹饪完成，请出锅~"
+        android:textColor="#ff474747"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/pot_over_button"
+        android:layout_width="260px"
+        android:layout_height="97px"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffe9a60f"
+        android:text="我知道了"
+        android:textSize="50px" />
+</LinearLayout>

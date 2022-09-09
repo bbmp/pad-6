@@ -1,0 +1,941 @@
+[
+  {
+    "id": 0,
+    "name": "煎蛋",
+    "introduction": "",
+    "needTime": 6210,
+    "imgSmall": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/small/edaf4339-2b76-4e6b-96b8-53f4a45f6791.jpg",
+    "imgMedium": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/medium/8331aa78-4d34-4b8f-ae60-c8d119f3fc5d.jpg",
+    "imgLarge": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/large/64e63c59-6602-4977-ba2b-fc3bb4b424ad.jpg",
+    "imgPoster": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/poster/08e59461-8028-4420-95fd-7bd3bf3daa86.jpg",
+    "collectCount": 0,
+    "difficulty": 3,
+    "allowDistribution": false,
+    "prepareSteps": {
+      "img": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/0ad3e923-acea-48a2-acbe-fc3af46c75b0.jpg",
+      "desc": "",
+      "steps": [
+        {
+          "no": 10,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/fdf61e74-5d35-4207-b9d3-9605e43bcef8.png"
+        },
+        {
+          "no": 4,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/48759b9f-b447-4af5-b19b-3993211cb39a.png"
+        },
+        {
+          "no": 7,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/3409c30a-70e4-4ab5-8598-4fb85e34967f.png"
+        },
+        {
+          "no": 6,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/ad0de572-80ad-437b-aea3-acff7626512a.png"
+        },
+        {
+          "no": 9,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/1b8d33cb-81a3-4cdf-93a8-fab4eaa06704.png"
+        },
+        {
+          "no": 3,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/9b0d1d33-6ace-4a19-a25b-4b2a7c3d6b55.png"
+        },
+        {
+          "no": 2,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/942dce05-24fb-4b38-98d9-6719e4a5ee62.png"
+        },
+        {
+          "no": 5,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/0a17ee61-c00c-463a-87f0-8d60f85e2e27.png"
+        },
+        {
+          "no": 1,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/a991ce5d-be10-4448-8ca8-e1fe1f21b83b.png"
+        },
+        {
+          "no": 8,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/a34a052b-7d91-4877-a4d7-9d9440c729fc.png"
+        }
+      ]
+    },
+    "steps": [
+      {
+        "no": 1,
+        "image": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/step/78f4f55c-cb04-481b-af44-3caf0b1d886e.png",
+        "desc": "热锅，准备好食用油和鸡蛋",
+        "fanGear": 0,
+        "stoveGear": 0,
+        "needTime": 20,
+        "tips": [
+          {
+            "time": 1,
+            "prompt": "冷锅加热",
+            "materials": [
+
+            ]
+          }
+        ],
+        "dc": "RRQZ",
+        "params": [
+          {
+            "platCode": "RQZ01",
+            "params": [
+              {
+                "code": "fanGear",
+                "codeName": "烟机风量",
+                "value": 3,
+                "type": 1,
+                "valueName": "3档"
+              },
+              {
+                "code": "stoveGear",
+                "codeName": "炉头功率（档位）",
+                "value": 6,
+                "type": 1,
+                "valueName": "6档"
+              },
+              {
+                "code": "needTime",
+                "codeName": "时间",
+                "value": 35,
+                "type": 0,
+                "valueName": ""
+              }
+            ],
+            "rules": [
+              {
+                "ruleStream": [
+                  {
+                    "ruleCode": "RULE_OVERTIME",
+                    "ruleType": "1",
+                    "ruleValue": "35",
+                    "ruleItem": "1",
+                    "effectTime": "1",
+                    "durationTime": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "platCode": "RQZ02",
+            "params": [
+              {
+                "code": "fanGear",
+                "codeName": "烟机风量",
+                "value": 3,
+                "type": 1,
+                "valueName": "3档"
+              },
+              {
+                "code": "stoveGear",
+                "codeName": "炉头功率（档位）",
+                "value": 4,
+                "type": 1,
+                "valueName": "4档"
+              },
+              {
+                "code": "needTime",
+                "codeName": "时间",
+                "value": 35,
+                "type": 0,
+                "valueName": ""
+              }
+            ],
+            "rules": [
+              {
+                "ruleStream": [
+                  {
+                    "ruleCode": "RULE_OVERTIME",
+                    "ruleType": "1",
+                    "ruleValue": "35",
+                    "ruleItem": "1",
+                    "effectTime": "1",
+                    "durationTime": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "stepNote": null
+      },
+      {
+        "no": 2,
+        "image": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/step/469a8638-ecf3-465e-9555-1a50d80ac810.png",
+        "desc": "锅中刷上一层食用油紧接着倒入一个鸡蛋，并盖上锅盖",
+        "fanGear": 0,
+        "stoveGear": 0,
+        "needTime": 1000,
+        "tips": [
+          {
+            "time": 1,
+            "prompt": "余温加热中，请准备好食用油",
+            "materials": [
+
+            ]
+          }
+        ],
+        "dc": "RRQZ",
+        "params": [
+          {
+            "platCode": "RQZ01",
+            "params": [
+              {
+                "code": "fanGear",
+                "codeName": "烟机风量",
+                "value": 6,
+                "type": 1,
+                "valueName": "6档"
+              },
+              {
+                "code": "stoveGear",
+                "codeName": "炉头功率（档位）",
+                "value": 2,
+                "type": 1,
+                "valueName": "2档"
+              },
+              {
+                "code": "needTime",
+                "codeName": "时间",
+                "value": 90,
+                "type": 0,
+                "valueName": ""
+              }
+            ],
+            "rules": [
+              {
+                "ruleStream": [
+                  {
+                    "ruleCode": "RULE_OVERTIME",
+                    "ruleType": "1",
+                    "ruleValue": "90",
+                    "ruleItem": "1",
+                    "effectTime": "1",
+                    "durationTime": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "platCode": "RQZ02",
+            "params": [
+              {
+                "code": "fanGear",
+                "codeName": "烟机风量",
+                "value": 6,
+                "type": 1,
+                "valueName": "6档"
+              },
+              {
+                "code": "stoveGear",
+                "codeName": "炉头功率（档位）",
+                "value": 1,
+                "type": 1,
+                "valueName": "1档"
+              },
+              {
+                "code": "needTime",
+                "codeName": "时间",
+                "value": 90,
+                "type": 0,
+                "valueName": ""
+              }
+            ],
+            "rules": [
+              {
+                "ruleStream": [
+                  {
+                    "ruleCode": "RULE_OVERTIME",
+                    "ruleType": "1",
+                    "ruleValue": "90",
+                    "ruleItem": "1",
+                    "effectTime": "1",
+                    "durationTime": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "stepNote": null
+      },
+      {
+        "no": 3,
+        "image": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/step/91699262-76d5-4eb4-899d-d75ea411a8d6.png",
+        "desc": "完成后淋上适量酱油",
+        "fanGear": 0,
+        "stoveGear": 0,
+        "needTime": 1000,
+        "tips": [
+          {
+            "time": 1,
+            "prompt": "锅温正好，加入食用油50ml",
+            "materials": [
+
+            ]
+          }
+        ],
+        "dc": "RRQZ",
+        "params": [
+          {
+            "platCode": "RQZ01",
+            "params": [
+              {
+                "code": "fanGear",
+                "codeName": "烟机风量",
+                "value": 1,
+                "type": 1,
+                "valueName": "1档"
+              },
+              {
+                "code": "stoveGear",
+                "codeName": "炉头功率（档位）",
+                "value": 5,
+                "type": 1,
+                "valueName": "5档"
+              },
+              {
+                "code": "needTime",
+                "codeName": "时间",
+                "value": 45,
+                "type": 0,
+                "valueName": ""
+              }
+            ],
+            "rules": [
+              {
+                "ruleStream": [
+                  {
+                    "ruleCode": "RULE_OVERTIME",
+                    "ruleType": "1",
+                    "ruleValue": "45",
+                    "ruleItem": "1",
+                    "effectTime": "1",
+                    "durationTime": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "platCode": "RQZ02",
+            "params": [
+              {
+                "code": "fanGear",
+                "codeName": "烟机风量",
+                "value": 1,
+                "type": 1,
+                "valueName": "1档"
+              },
+              {
+                "code": "stoveGear",
+                "codeName": "炉头功率（档位）",
+                "value": 4,
+                "type": 1,
+                "valueName": "4档"
+              },
+              {
+                "code": "needTime",
+                "codeName": "时间",
+                "value": 45,
+                "type": 0,
+                "valueName": ""
+              }
+            ],
+            "rules": [
+              {
+                "ruleStream": [
+                  {
+                    "ruleCode": "RULE_OVERTIME",
+                    "ruleType": "1",
+                    "ruleValue": "45",
+                    "ruleItem": "1",
+                    "effectTime": "1",
+                    "durationTime": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "stepNote": null
+      }
+    ],
+    "materials": {
+      "main": [
+        {
+          "name": "鸡脯肉",
+          "standardUnit": "g",
+          "standardWeight": "250",
+          "popularUnit": null,
+          "popularWeight": ""
+        },
+        {
+          "name": "熟花生米",
+          "standardUnit": "g",
+          "standardWeight": "80",
+          "popularUnit": null,
+          "popularWeight": ""
+        },
+        {
+          "name": "大葱",
+          "standardUnit": "g",
+          "standardWeight": "100",
+          "popularUnit": null,
+          "popularWeight": ""
+        }
+      ],
+      "accessory": [
+        {
+          "name": "清水",
+          "standardUnit": "ml",
+          "standardWeight": "20",
+          "popularUnit": null,
+          "popularWeight": ""
+        },
+        {
+          "name": "花椒粉",
+          "standardUnit": "g",
+          "standardWeight": "5",
+          "popularUnit": "小勺",
+          "popularWeight": "5"
+        },
+        {
+          "name": "醋",
+          "standardUnit": "ml",
+          "standardWeight": "5",
+          "popularUnit": "大勺",
+          "popularWeight": "0.5"
+        },
+        {
+          "name": "食用油",
+          "standardUnit": "ml",
+          "standardWeight": "50",
+          "popularUnit": null,
+          "popularWeight": ""
+        },
+        {
+          "name": "干辣椒",
+          "standardUnit": "g",
+          "standardWeight": "20",
+          "popularUnit": "个",
+          "popularWeight": "5"
+        },
+        {
+          "name": "香油",
+          "standardUnit": "ml",
+          "standardWeight": "5",
+          "popularUnit": "大勺",
+          "popularWeight": "0.5"
+        },
+        {
+          "name": "辣油",
+          "standardUnit": "ml",
+          "standardWeight": "5",
+          "popularUnit": "大勺",
+          "popularWeight": "0.5"
+        },
+        {
+          "name": "白胡椒粉",
+          "standardUnit": "g",
+          "standardWeight": "1",
+          "popularUnit": "小勺",
+          "popularWeight": "1"
+        },
+        {
+          "name": "蒜头",
+          "standardUnit": "g",
+          "standardWeight": "10",
+          "popularUnit": "瓣",
+          "popularWeight": "2"
+        },
+        {
+          "name": "白糖",
+          "standardUnit": "g",
+          "standardWeight": "5",
+          "popularUnit": "大勺",
+          "popularWeight": "0.5"
+        },
+        {
+          "name": "老抽",
+          "standardUnit": "ml",
+          "standardWeight": "5",
+          "popularUnit": "大勺",
+          "popularWeight": "0.5"
+        },
+        {
+          "name": "料酒",
+          "standardUnit": "ml",
+          "standardWeight": "1",
+          "popularUnit": "大勺",
+          "popularWeight": "1"
+        },
+        {
+          "name": "盐",
+          "standardUnit": "g",
+          "standardWeight": "2",
+          "popularUnit": "小勺",
+          "popularWeight": "2"
+        },
+        {
+          "name": "干淀粉",
+          "standardUnit": "g",
+          "standardWeight": "10",
+          "popularUnit": null,
+          "popularWeight": ""
+        },
+        {
+          "name": "生姜",
+          "standardUnit": "g",
+          "standardWeight": "10",
+          "popularUnit": "片",
+          "popularWeight": "6"
+        },
+        {
+          "name": "湿淀粉",
+          "standardUnit": "ml",
+          "standardWeight": "30",
+          "popularUnit": null,
+          "popularWeight": ""
+        }
+      ]
+    },
+    "dcs": [
+      {
+        "dc": "RRQZ"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "红焖大虾",
+    "introduction": "",
+    "needTime": 6210,
+    "imgSmall": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/small/edaf4339-2b76-4e6b-96b8-53f4a45f6791.jpg",
+    "imgMedium": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/medium/8331aa78-4d34-4b8f-ae60-c8d119f3fc5d.jpg",
+    "imgLarge": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/large/64e63c59-6602-4977-ba2b-fc3bb4b424ad.jpg",
+    "imgPoster": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/poster/08e59461-8028-4420-95fd-7bd3bf3daa86.jpg",
+    "collectCount": 0,
+    "difficulty": 3,
+    "allowDistribution": false,
+    "prepareSteps": {
+      "img": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/0ad3e923-acea-48a2-acbe-fc3af46c75b0.jpg",
+      "desc": "",
+      "steps": [
+        {
+          "no": 10,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/fdf61e74-5d35-4207-b9d3-9605e43bcef8.png"
+        },
+        {
+          "no": 4,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/48759b9f-b447-4af5-b19b-3993211cb39a.png"
+        },
+        {
+          "no": 7,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/3409c30a-70e4-4ab5-8598-4fb85e34967f.png"
+        },
+        {
+          "no": 6,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/ad0de572-80ad-437b-aea3-acff7626512a.png"
+        },
+        {
+          "no": 9,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/1b8d33cb-81a3-4cdf-93a8-fab4eaa06704.png"
+        },
+        {
+          "no": 3,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/9b0d1d33-6ace-4a19-a25b-4b2a7c3d6b55.png"
+        },
+        {
+          "no": 2,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/942dce05-24fb-4b38-98d9-6719e4a5ee62.png"
+        },
+        {
+          "no": 5,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/0a17ee61-c00c-463a-87f0-8d60f85e2e27.png"
+        },
+        {
+          "no": 1,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/a991ce5d-be10-4448-8ca8-e1fe1f21b83b.png"
+        },
+        {
+          "no": 8,
+          "imgUrl": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/prepare/a34a052b-7d91-4877-a4d7-9d9440c729fc.png"
+        }
+      ]
+    },
+    "steps": [
+      {
+        "no": 1,
+        "image": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/step/78f4f55c-cb04-481b-af44-3caf0b1d886e.png",
+        "desc": "开中火将虾焖煮至熟，大约5到6分钟",
+        "fanGear": 0,
+        "stoveGear": 0,
+        "needTime": 20,
+        "tips": [
+          {
+            "time": 1,
+            "prompt": "冷锅加热",
+            "materials": [
+
+            ]
+          }
+        ],
+        "dc": "RRQZ",
+        "params": [
+          {
+            "platCode": "RQZ01",
+            "params": [
+              {
+                "code": "fanGear",
+                "codeName": "烟机风量",
+                "value": 1,
+                "type": 1,
+                "valueName": "1档"
+              },
+              {
+                "code": "stoveGear",
+                "codeName": "炉头功率（档位）",
+                "value": 4,
+                "type": 1,
+                "valueName": "4档"
+              },
+              {
+                "code": "needTime",
+                "codeName": "时间",
+                "value": 360,
+                "type": 0,
+                "valueName": ""
+              }
+            ],
+            "rules": [
+              {
+                "ruleStream": [
+                  {
+                    "ruleCode": "RULE_OVERTIME",
+                    "ruleType": "1",
+                    "ruleValue": "360",
+                    "ruleItem": "1",
+                    "effectTime": "1",
+                    "durationTime": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "platCode": "RQZ02",
+            "params": [
+              {
+                "code": "fanGear",
+                "codeName": "烟机风量",
+                "value": 1,
+                "type": 1,
+                "valueName": "1档"
+              },
+              {
+                "code": "stoveGear",
+                "codeName": "炉头功率（档位）",
+                "value": 3,
+                "type": 1,
+                "valueName": "3档"
+              },
+              {
+                "code": "needTime",
+                "codeName": "时间",
+                "value": 360,
+                "type": 0,
+                "valueName": ""
+              }
+            ],
+            "rules": [
+              {
+                "ruleStream": [
+                  {
+                    "ruleCode": "RULE_OVERTIME",
+                    "ruleType": "1",
+                    "ruleValue": "360",
+                    "ruleItem": "1",
+                    "effectTime": "1",
+                    "durationTime": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "stepNote": null
+      },
+      {
+        "no": 2,
+        "image": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/step/469a8638-ecf3-465e-9555-1a50d80ac810.png",
+        "desc": "开盖，自动转大火收汁",
+        "fanGear": 0,
+        "stoveGear": 0,
+        "needTime": 1000,
+        "tips": [
+          {
+            "time": 1,
+            "prompt": "余温加热中，请准备好食用油",
+            "materials": [
+
+            ]
+          }
+        ],
+        "dc": "RRQZ",
+        "params": [
+          {
+            "platCode": "RQZ01",
+            "params": [
+              {
+                "code": "fanGear",
+                "codeName": "烟机风量",
+                "value": 3,
+                "type": 1,
+                "valueName": "3档"
+              },
+              {
+                "code": "stoveGear",
+                "codeName": "炉头功率（档位）",
+                "value": 6,
+                "type": 1,
+                "valueName": "6档"
+              },
+              {
+                "code": "needTime",
+                "codeName": "时间",
+                "value": 30,
+                "type": 0,
+                "valueName": ""
+              }
+            ],
+            "rules": [
+              {
+                "ruleStream": [
+                  {
+                    "ruleCode": "RULE_UP_THRESHOLD",
+                    "ruleType": "1",
+                    "ruleValue": "132",
+                    "ruleItem": "1",
+                    "effectTime": "30",
+                    "durationTime": "0"
+                  }
+                ]
+              },
+              {
+                "ruleStream": [
+                  {
+                    "ruleCode": "RULE_OVERTIME",
+                    "ruleType": "1",
+                    "ruleValue": "120",
+                    "ruleItem": "1",
+                    "effectTime": "1",
+                    "durationTime": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "platCode": "RQZ02",
+            "params": [
+              {
+                "code": "fanGear",
+                "codeName": "烟机风量",
+                "value": 3,
+                "type": 1,
+                "valueName": "3档"
+              },
+              {
+                "code": "stoveGear",
+                "codeName": "炉头功率（档位）",
+                "value": 4,
+                "type": 1,
+                "valueName": "4档"
+              },
+              {
+                "code": "needTime",
+                "codeName": "时间",
+                "value": 30,
+                "type": 0,
+                "valueName": ""
+              }
+            ],
+            "rules": [
+              {
+                "ruleStream": [
+                  {
+                    "ruleCode": "RULE_UP_THRESHOLD",
+                    "ruleType": "1",
+                    "ruleValue": "132",
+                    "ruleItem": "1",
+                    "effectTime": "30",
+                    "durationTime": "0"
+                  }
+                ]
+              },
+              {
+                "ruleStream": [
+                  {
+                    "ruleCode": "RULE_OVERTIME",
+                    "ruleType": "1",
+                    "ruleValue": "120",
+                    "ruleItem": "1",
+                    "effectTime": "1",
+                    "durationTime": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "stepNote": null
+      }
+    ],
+    "materials": {
+      "main": [
+        {
+          "name": "鸡脯肉",
+          "standardUnit": "g",
+          "standardWeight": "250",
+          "popularUnit": null,
+          "popularWeight": ""
+        },
+        {
+          "name": "熟花生米",
+          "standardUnit": "g",
+          "standardWeight": "80",
+          "popularUnit": null,
+          "popularWeight": ""
+        },
+        {
+          "name": "大葱",
+          "standardUnit": "g",
+          "standardWeight": "100",
+          "popularUnit": null,
+          "popularWeight": ""
+        }
+      ],
+      "accessory": [
+        {
+          "name": "清水",
+          "standardUnit": "ml",
+          "standardWeight": "20",
+          "popularUnit": null,
+          "popularWeight": ""
+        },
+        {
+          "name": "花椒粉",
+          "standardUnit": "g",
+          "standardWeight": "5",
+          "popularUnit": "小勺",
+          "popularWeight": "5"
+        },
+        {
+          "name": "醋",
+          "standardUnit": "ml",
+          "standardWeight": "5",
+          "popularUnit": "大勺",
+          "popularWeight": "0.5"
+        },
+        {
+          "name": "食用油",
+          "standardUnit": "ml",
+          "standardWeight": "50",
+          "popularUnit": null,
+          "popularWeight": ""
+        },
+        {
+          "name": "干辣椒",
+          "standardUnit": "g",
+          "standardWeight": "20",
+          "popularUnit": "个",
+          "popularWeight": "5"
+        },
+        {
+          "name": "香油",
+          "standardUnit": "ml",
+          "standardWeight": "5",
+          "popularUnit": "大勺",
+          "popularWeight": "0.5"
+        },
+        {
+          "name": "辣油",
+          "standardUnit": "ml",
+          "standardWeight": "5",
+          "popularUnit": "大勺",
+          "popularWeight": "0.5"
+        },
+        {
+          "name": "白胡椒粉",
+          "standardUnit": "g",
+          "standardWeight": "1",
+          "popularUnit": "小勺",
+          "popularWeight": "1"
+        },
+        {
+          "name": "蒜头",
+          "standardUnit": "g",
+          "standardWeight": "10",
+          "popularUnit": "瓣",
+          "popularWeight": "2"
+        },
+        {
+          "name": "白糖",
+          "standardUnit": "g",
+          "standardWeight": "5",
+          "popularUnit": "大勺",
+          "popularWeight": "0.5"
+        },
+        {
+          "name": "老抽",
+          "standardUnit": "ml",
+          "standardWeight": "5",
+          "popularUnit": "大勺",
+          "popularWeight": "0.5"
+        },
+        {
+          "name": "料酒",
+          "standardUnit": "ml",
+          "standardWeight": "1",
+          "popularUnit": "大勺",
+          "popularWeight": "1"
+        },
+        {
+          "name": "盐",
+          "standardUnit": "g",
+          "standardWeight": "2",
+          "popularUnit": "小勺",
+          "popularWeight": "2"
+        },
+        {
+          "name": "干淀粉",
+          "standardUnit": "g",
+          "standardWeight": "10",
+          "popularUnit": null,
+          "popularWeight": ""
+        },
+        {
+          "name": "生姜",
+          "standardUnit": "g",
+          "standardWeight": "10",
+          "popularUnit": "片",
+          "popularWeight": "6"
+        },
+        {
+          "name": "湿淀粉",
+          "standardUnit": "ml",
+          "standardWeight": "30",
+          "popularUnit": null,
+          "popularWeight": ""
+        }
+      ]
+    },
+    "dcs": [
+      {
+        "dc": "RRQZ"
+      }
+    ]
+  }
+]

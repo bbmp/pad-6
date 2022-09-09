@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/fl_card_poster"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/img_pot_poster" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24px"
+        android:layout_marginStart="24px"
+        android:layout_marginTop="24px"
+        android:text="@string/device_pot_device_name"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="34px" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24px"
+        android:layout_marginStart="24px"
+        android:layout_marginTop="70px"
+        android:text="@string/device_pot_cooking_assistant"
+        android:textColor="#666666"
+        android:textSize="26px" />
+
+</FrameLayout>

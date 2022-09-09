@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_title">string</string>
+    <string name="search_hint">输入菜谱关键字进行搜索</string>
+
+    <!-- Common -->
+    <string name="common_ok">确定</string>
+    <string name="common_cancel">取消</string>
+
+    <string name="common_ok1">确 定</string>
+    <string name="common_cancel1">取 消</string>
+    <string name="common_yes">是</string>
+    <string name="common_no">否</string>
+    <string name="count_close">关闭计时</string>
+    <string name="count_setting">计时设置</string>
+    <string name="loadingPleaseWait">正在加载,请稍候...</string>
+
+    <string name="back">返回</string>
+    <string name="attentionMatter">注意事项:</string>
+
+
+
+    <string name="connect_net_des">" "\n
+        \n
+        1.如果您家里Wi-Fi不需要密码，请不用输入密码，直接确认即可;\n
+                                   2.设备不支持5G Wi-Fi，请关闭路由器5G频段;\n
+                                  </string>
+
+    <string name="connect_net_des2">" "1.首先需要将手机链接到您家里的Wi-FI热点;\n
+                                   2.若不是你想要的网络，请在手机设置中切换;\n
+                                   3.如果您家里Wi-Fi不需要密码，请不用输入密码，直接确认即可;\n
+                                   4.设备不支持5G Wi-Fi，请关闭路由器5G频段；\n
+                                   5.如果您使用的是iphon6S 或 iphone7，请确保路由器模式不是处于n模式;</string>
+
+
+
+    <string name="remind">温馨提醒:</string>
+
+    <string name="connect_net_dialog_des">" "1.请确保您输入的Wi-Fi密码是正确的;\n
+                                   2.可能是路由器信号不佳,查看手机是否可在此Wi-Fi\n
+                                   环境下上网;
+                                 </string>
+    <string name="try_again">再试一次</string>
+
+</resources>

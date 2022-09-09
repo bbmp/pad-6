@@ -1,0 +1,225 @@
+{
+  "main": "MainForm",
+  "forms": [
+    {
+      "id": "WelcomeForm",
+      "homePage": "Welcome",
+      "loader": "com.robam.rokipad.ui.view.RokiPadLoader"
+    },
+    {
+      "id": "GuideForm",
+      "homePage": "GuideWifi",
+      "loader": "com.robam.rokipad.ui.view.RokiPadLoader"
+    },
+    {
+      "id": "MainForm",
+      "homePage": "Home",
+      "loader": "com.robam.rokipad.ui.view.RokiPadLoader"
+    },
+    {
+      "id": "MinimalismForm",
+      "homePage": "HomeMin",
+      "loader": "com.robam.rokipad.ui.view.RokiPadLoader"
+    },
+    {
+      "id": "LoginForm",
+      "homePage": "GuideLogin",
+      "loader": "com.robam.rokipad.ui.view.RokiPadLoader"
+    }
+  ],
+  "menus": [],
+  "pages": [
+    {
+      "id": "Home",
+      "name": "ROBAM",
+      "clazz": "com.robam.rokipad.ui.page.HomePage"
+    },
+    {
+      "id": "HomeMin",
+      "name": "",
+      "clazz": "com.robam.rokipad.ui.page.HomeMinPage"
+    },
+    {
+      "id": "Welcome",
+      "clazz": "com.robam.rokipad.ui.page.WelcomePage"
+    },
+    {
+      "id": "WebClient",
+      "clazz": "com.robam.rokipad.ui.page.WebClientPage"
+    },
+    {
+      "id": "LoginScan",
+      "clazz": "com.robam.rokipad.ui.page.LoginScanPage"
+    },
+    {
+      "id": "RecipeAll",
+      "clazz": "com.robam.rokipad.ui.page.RecipeAllPage"
+    },
+    {
+      "id": "RecipeDetail",
+      "clazz": "com.robam.rokipad.ui.page.RecipeDetailPage"
+    },
+    {
+      "id": "Setting",
+      "name": "Setting",
+      "clazz": "com.robam.rokipad.ui.page.SettingPage"
+    },
+    {
+      "id": "UserRegist",
+      "clazz": "com.robam.rokipad.ui.page.UserRegistPage"
+    },
+    {
+      "id": "UserLogin",
+      "clazz": "com.robam.rokipad.ui.page.UserLoginPage"
+    },
+    {
+      "id": "GuideHome",
+      "clazz": "com.robam.rokipad.ui.page.GuideHomePage"
+    },
+    {
+      "id": "GuideWifi",
+      "name": "Network connections",
+      "clazz": "com.robam.rokipad.ui.page.GuideWifiPage"
+    },{
+      "id": "Wifi",
+      "name": "Network connections",
+      "clazz": "com.robam.rokipad.ui.page.setting.WifiPage"
+    },
+    {
+      "id": "Person",
+      "name": "",
+      "clazz": "com.robam.rokipad.ui.page.PersonPage"
+    },
+    {
+      "id": "GuideLogin",
+      "name": "Login",
+      "clazz": "com.robam.rokipad.ui.page.GuideLoginPage"
+    },
+    {
+      "id": "GuideRegist",
+      "name": "User register",
+      "clazz": "com.robam.rokipad.ui.page.GuideRegistPage"
+    },
+    {
+      "id": "GuideFind",
+      "clazz": "com.robam.rokipad.ui.page.GuideFindPage"
+    },
+    {
+      "id": "RecipeCategory",
+      "clazz": "com.robam.rokipad.ui.page.RecipeCategoryPage"
+    },
+    {
+      "id": "RecipeContainer",
+      "clazz": "com.robam.rokipad.ui.page.RecipeContainerPage"
+    },
+    {
+      "id": "RecipeToday",
+      "name": "Today’s recipe",
+      "clazz": "com.robam.rokipad.ui.page.RecipeTodayPage"
+    },
+    {
+      "id": "RecipeFavority",
+      "name": "Favorites",
+      "clazz": "com.robam.rokipad.ui.page.RecipeFavorityPage"
+    },
+    {
+      "id": "RecipeRecommend",
+      "name": "Guess you like",
+      "clazz": "com.robam.rokipad.ui.page.RecipeRecommendPage"
+    },
+    {
+      "id": "RecipePrepare",
+      "clazz": "com.robam.rokipad.ui.page.RecipePreparePage"
+    },
+    {
+      "id": "RecipeIntroduce",
+      "clazz": "com.robam.rokipad.ui.page.RecipeIntroducePage"
+    },
+    {
+      "id": "RecipeSearch",
+      "clazz": "com.robam.rokipad.ui.page.RecipeSearchPage"
+    },
+    {
+      "id": "RecipeCooking",
+      "clazz": "com.robam.rokipad.ui.page.RecipeCookingPage"
+    },
+    {
+      "id": "SteamOvenRecipeIntroducePage",
+      "clazz": "com.robam.rokipad.ui.SteamOvenRecipe.SteamOvenRecipeIntroducePage"
+    },
+    {
+      "id": "SteamOvenRecipePreparePage",
+      "clazz": "com.robam.rokipad.ui.SteamOvenRecipe.SteamOvenRecipePreparePage"
+    },
+    {
+      "id": "SteamOvenRecipeContainerPage",
+      "clazz": "com.robam.rokipad.ui.SteamOvenRecipe.SteamOvenRecipeContainerPage"
+    },
+    {
+      "id": "SteamOvenRecipeCookingPage",
+      "clazz": "com.robam.rokipad.ui.SteamOvenRecipe.SteamOvenRecipeCookingPage"
+    },
+    {
+      "id": "DeviceSteam",
+      "clazz": "com.robam.rokipad.ui.page.DeviceSteamPage"
+    },
+    {
+      "id": "DeviceSteamWorking",
+      "clazz": "com.robam.rokipad.ui.page.DeviceSteamWorkingPage"
+    },
+    {
+      "id": "OneKeyCookPage",
+      "clazz": "com.robam.rokipad.ui.page.StoveOneKeyCookPage"
+    },
+    {
+      "id": "AutoRecipeDetail",
+      "clazz": "com.robam.rokipad.ui.page.AutoRecipeDetailPage"
+    },
+    {
+      "id": "AutoRecipeStart",
+      "clazz": "com.robam.rokipad.ui.page.AutoRecipeStartPage"
+    },
+    {
+      "id": "AutoRecipePotStart",
+      "clazz": "com.robam.rokipad.ui.page.AutoRecipePotStartPage"
+    },
+    {
+      "id": "HomeSet",
+      "clazz": "com.robam.rokipad.ui.page.setting.HomeSetPage"
+    },
+    {
+      "id": "TermSheet",
+      "clazz": "com.robam.rokipad.ui.page.setting.TermSheetPage"
+    },
+    {
+      "id": "DeviceBluetoothAdd",
+      "clazz": "com.robam.rokipad.ui.page.DeviceBluetoothAddPage"
+    },
+    {
+      "id": "DeviceStoveAddPreview",
+      "clazz": "com.robam.rokipad.ui.page.DeviceStoveAddPreviewPage"
+    },
+    {
+      "id": "StoveAutoCook",
+      "clazz": "com.robam.rokipad.ui.page.cooking.StoveAutoCookPage"
+    },
+    {
+      "id": "AutoCookRecipeStoveStart",
+      "clazz": "com.robam.rokipad.ui.page.cooking.AutoCookRecipeStoveStartPage"
+    }
+  ,
+    {
+      "id": "PotCookingTips",
+      "clazz": "com.robam.rokipad.ui.page.PotCookingTipsPage"
+    }
+  ,
+    {
+      "id": "AutoCookRecipePotStart",
+      "clazz": "com.robam.rokipad.ui.page.cooking.AutoCookRecipePotStartPage"
+    },
+    {
+      "id": "ConvenientMenu",
+      "clazz": "com.robam.rokipad.ui.page.ConvenientMenuPage"
+    }
+  ]
+}

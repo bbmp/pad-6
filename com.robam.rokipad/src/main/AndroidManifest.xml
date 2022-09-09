@@ -1,0 +1,137 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.robam.rokipad"
+>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" /> <!-- 开机自启 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- 屏幕唤醒 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- system root -->
+    <!-- <uses-permission android:name="android.permission.DEVICE_POWER" /> -->
+    <!-- 键盘解锁 -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" /> <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> <!-- 下载服务权限 -->
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" /> <!-- 二维码扫描 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" /> <!-- 悬浮窗的权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" /> <!-- 读取手机信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".NewPadApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/title_app_name"
+        android:largeHeap="true"
+        android:logo="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label,android:icon">
+        <activity
+            android:name="com.robam.rokipad.ui.from.GuideActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.robam.rokipad.ui.from.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+
+        <activity
+            android:name="com.robam.rokipad.ui.from.LoginActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".ui.from.MinimalismModelActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <!-- service -->
+
+        <receiver android:name="com.legent.plat.services.DevicePollingReceiver">
+            <intent-filter>
+                <action android:name="com.legent.plat.services.DevicePollingReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.robam.common.services.UpdateApkReceiver">
+            <intent-filter>
+                <action android:name="com.robam.common.services.UpdateApkReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Register AnalyticsReceiver and AnalyticsService to support background
+        dispatching on non-Google Play devices. -->
+        <!-- <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+             android:enabled="true">
+             <intent-filter>
+                 <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+             </intent-filter>
+         </receiver>
+         <service android:name="com.google.android.gms.analytics.AnalyticsService"
+             android:enabled="true"
+             android:exported="false"/>-->
+
+        <!-- ... -->
+
+
+        <service android:name="com.robam.rokipad.service.RokiService">
+            <intent-filter>
+                <action android:name="com.robam.rokipad.service.IPowerService" />
+            </intent-filter>
+        </service>
+
+        <!--<receiver android:name=".receivers.AppInstallReceiver"-->
+        <!--android:label="@string/app_name">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.intent.action.PACKAGE_ADDED" />-->
+        <!--<action android:name="android.intent.action.PACKAGE_REPLACED" />-->
+        <!--<action android:name="android.intent.action.PACKAGE_REMOVED" />-->
+        <!--<data android:scheme="package" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <meta-data
+            android:name="client_id"
+            android:value="792b1d08a5348d0d" />
+        <meta-data
+            android:name="client_secret"
+            android:value="9a98ce3841ae9f686fbea940a93b8167" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

@@ -1,0 +1,119 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+android {
+    compileSdkVersion build_versions.target_sdk
+    buildToolsVersion build_versions.build_tools
+    defaultConfig {
+        applicationId "com.robam.rokipad"
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
+        versionCode 311
+        versionName "3.1.1"
+        multiDexEnabled true
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        ndk{
+            abiFilters 'armeabi-v7a'
+        }
+    }
+
+    signingConfigs {
+        releaseConfig {
+            keyAlias 'rokipad'
+            keyPassword '123456'
+            storeFile file('./rokipad.keystore')
+            storePassword '123456'
+        }
+
+        debugConfig {
+            keyAlias 'rokipad'
+            keyPassword '123456'
+            storeFile file('./rokipad.keystore')
+            storePassword '123456'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.releaseConfig
+        }
+        debug {
+            signingConfig signingConfigs.debugConfig
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    sourceSets {
+        main {
+            assets.srcDirs = ['src/main/assets', 'src/main/assets/']
+            aidl.srcDirs = ['src/main/aidl', 'src/main/aidl/']
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    android.applicationVariants.all {
+        variant ->
+            variant.outputs.all {
+                outputFileName = "Rokipad_686${buildType.name}_${defaultConfig.versionName}V_${releaseTime()}.apk"
+            }
+    }
+
+}
+
+static def releaseTime() {
+    return new Date().format("yyyyMM_dd_hh_mm", TimeZone.getTimeZone("Asia/Shanghai"))
+}
+
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api project(':com.robam.common')
+    api project(':com.legent.utils.serialport')
+    implementation files('src/main/libs/jpinyin-1.0.jar')
+    implementation deps.daimajia_swipelayout
+    implementation deps.flow_layout
+    implementation deps.picasso
+    implementation deps.play_services_analytics
+    implementation deps.play_services_appindexing
+    implementation deps.glide
+    implementation deps.recyclerview
+    implementation deps.app_compat
+    implementation deps.fragment.runtime
+    implementation deps.cardview
+    implementation deps.constraint_layout
+    // RxJava
+    implementation deps.rx_android
+    implementation deps.rxjava2
+    implementation deps.lifecycle.runtime
+    implementation deps.multidex
+    implementation deps.firebase
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    androidTestImplementation deps.espresso.core
+
+
+}

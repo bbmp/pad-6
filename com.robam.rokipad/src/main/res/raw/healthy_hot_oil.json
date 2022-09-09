@@ -1,0 +1,36 @@
+{
+  "hotoils": [
+    {
+      "model": 0,
+      "name": "炒炸酱坚果",
+      "temp_interval":"80-90",
+      "health_temp_low":80,
+      "health_temp_high": 90,
+      "warm_temp": 130
+    },
+    {
+      "model": 1,
+      "name": "软炸煎肉煎蛋",
+      "temp_interval":"95-105",
+      "health_temp_low":95,
+      "health_temp_high": 105,
+      "warm_temp": 145
+    },
+    {
+      "model": 2,
+      "name": "爆炒爆香辅料",
+      "temp_interval":"155-165",
+      "health_temp_low":155,
+      "health_temp_high": 165,
+      "warm_temp": 205
+    },
+    {
+      "model": 3,
+      "name": "干炸泼油",
+      "temp_interval":"195-205",
+      "health_temp_low":195,
+      "health_temp_high": 205,
+      "warm_temp": 245
+    }
+  ]
+}

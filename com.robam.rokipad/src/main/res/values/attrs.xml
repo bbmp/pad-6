@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsIndicatorWidth" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+    <item name="iv_tab_icon" type="id"/>
+    <item name="tv_tab_name" type="id"/>
+
+    <attr name="isLeft" format="boolean" />
+
+    <attr name="title" format="string"/>
+    <declare-styleable name="RecipeSearchOption">
+        <attr name="title"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="custume_ripple_imageview">
+        <attr name="show_spacing_time" format="integer"></attr>
+        <attr name="imageViewWidth" format="dimension"></attr>
+        <attr name="imageViewHeigth" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="DeviceTabItem">
+        <attr name="imgTabSource" format="reference|color" />
+        <attr name="imgTabBackgroud" format="reference|color" />
+        <attr name="tabitemtag" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="AdvertItemView">
+        <attr name="title" />
+        <attr name="imgBackgroud" />
+    </declare-styleable>
+    <declare-styleable name="StoveHeadView">
+        <attr name="isLeft" />
+    </declare-styleable>
+    <declare-styleable name="SwipeLayout">
+        <attr name="drag_edge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="top" value="4" />
+            <flag name="bottom" value="8" />
+        </attr>
+        <attr name="leftEdgeSwipeOffset" format="dimension" />
+        <attr name="rightEdgeSwipeOffset" format="dimension" />
+        <attr name="topEdgeSwipeOffset" format="dimension" />
+        <attr name="bottomEdgeSwipeOffset" format="dimension" />
+        <attr name="show_mode" format="enum">
+            <enum name="lay_down" value="0" />
+            <enum name="pull_out" value="1" />
+        </attr>
+        <attr name="clickToClose" format="boolean" />
+    </declare-styleable>
+
+
+    <!--滑动解锁 -->
+    <declare-styleable name="SlideUnlockButton">
+        <!-- 开关背景图片的属性, 引用的是R.drawable.xx. -->
+        <attr name="slideUnlockBackgroundResource" format="reference" />
+        <!-- 开关滑动块图片的属性, 引用的是R.drawable.xx. -->
+        <attr name="slideUnlockBlockResource" format="reference" />
+        <!-- 开关当前的状态的属性, true 打开, false 关闭 -->
+        <attr name="unLockState" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RippleView">
+       <!-- <attr name="rippleColor" format="color" />-->
+        <attr name="alphaFactor" format="float" />
+        <attr name="hover" format="boolean" />
+    </declare-styleable>
+
+
+
+    <!--圆角图片view 属性 -->
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <declare-styleable name="RoundImageViewByXfermode">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+
+
+    <!--新增-->
+    <!--圆弧进度条-->
+    <declare-styleable name="progrssview">
+        <attr name="radiusT" format="dimension"/>
+        <attr name="strWidth" format="dimension"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="ringColor" format="color"/>
+        <attr name="ringBgColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="AnimDownloadProgressButton">
+        <attr name="progressbtn_radius" format="float"/>
+        <attr name="progressbtn_background_color" format="color"/>
+        <attr name="progressbtn_background_second_color" format="color"/>
+        <attr name="progressbtn_text_size" format="float"/>
+        <attr name="progressbtn_text_color" format="color"/>
+        <attr name="progressbtn_text_covercolor" format="color"/>
+        <attr name="progressbtn_enable_press" format="boolean"/>
+        <attr name="progressbtn_enable_gradient" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="WheelView">
+        <!-- 中间分割线外的item数量,整个滑动数量就为 wheelItemCount * 2 + 1  -->
+        <attr name="wheelItemCount" format="integer"/>
+        <!-- 滑轮item高度 -->
+        <attr name="wheelItemSize" format="dimension"/>
+        <!-- 分割线颜色 -->
+        <attr name="dividerColor2" format="color"/>
+        <attr name="selectColor" format="color"/>
+        <!-- 布局方向 -->
+        <attr name="wheelOrientation">
+            <enum name="vertical" value="1"/>
+            <enum name="horizontal" value="0"/>
+        </attr>
+        <!-- 水平布局时不考虑只参数,  当垂直布局时的左右靠齐立体效果 -->
+        <attr name="wheelGravity">
+            <enum name="left" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+
+        <!-- 两根分割线的距离 -->
+        <attr name="wheelDividerSize" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="rokiWheelView">
+        <attr format="integer" name="rwv_textsize"/>
+        <attr format="float" name="rwv_lineSpace" />
+        <attr format="integer" name="rwv_centerTextColor" />
+        <attr format="integer" name="rwv_outerTextColor" />
+        <attr format="integer" name="rwv_dividerTextColor" />
+        <attr format="integer" name="rwv_itemsVisibleCount" />
+        <attr format="boolean" name="rwv_isLoop" />
+        <attr format="integer" name="rwv_initialPosition" />
+        <attr format="float" name="rwv_scaleX" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressLayout">
+        <!--        控件宽-->
+        <attr name="progressLayout_width" format="dimension" />
+        <!--        控件高-->
+        <attr name="progressLayout_height" format="dimension" />
+        <!--        外阴影宽度-->
+        <attr name="progressLayout_outer_shader_width" format="dimension" />
+        <!--        圆环宽度-->
+        <attr name="progressLayout_circle_stroke_width" format="dimension" />
+        <!--        是否是清洁模式-->
+        <attr name="progressLayout_clean_mode" format="boolean" />
+        <!--        是否执行指针上浮的初始化动画 -->
+        <attr name="progressLayout_init_anim" format="boolean" />
+        <!--        是否是保温模式-->
+        <attr name="progressLayout_keep_ware_mode" format="boolean" />
+    </declare-styleable>
+
+    <!--通用按钮样式-->
+    <declare-styleable name="MyButton">
+        <attr name="a6btn_color">
+            <enum name="yellow" value="201" />
+            <enum name="green" value="202" />
+            <enum name="blue" value="203" />
+        </attr>
+        <attr name="a6btn_type">
+            <enum name="light" value="1001" />
+            <enum name="normal" value="1002" />
+            <enum name="action" value="1003" />
+        </attr>
+        <attr name="a6btn_action">
+            <enum name="positive" value="2001" />
+            <enum name="negative" value="2002" />
+        </attr>
+        <attr name="a6btn_enable" format="boolean" />
+        <attr name="a6btn_text" format="string" />
+    </declare-styleable>
+
+</resources>

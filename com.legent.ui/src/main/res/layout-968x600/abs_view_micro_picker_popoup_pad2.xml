@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:alpha="0.9"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        >
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/iv_cook_mode_icon"
+            android:src="@mipmap/ic_delete"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtProMode"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/iv_cook_mode_icon"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="专业模式"
+            android:textColor="#232323"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/divMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="46dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/txtCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="取 消"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textColor="#232323"
+            android:background="#e9a60f"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txtDesc"
+            android:layout_width="480dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical"
+            android:text="描述"
+            android:textColor="#ff0000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/txtConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:background="#e9a60f"
+            android:text="确 定"
+            android:textColor="#232323"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

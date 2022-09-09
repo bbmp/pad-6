@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_back">返回</string>
+    <string name="title_home">首页</string>
+    <string name="title_setting">设置</string>
+
+    <string name="title_personal_center">个人中心</string>
+    <string name="title_smart_set">智能设定</string>
+    <string name="title_after_service">售后服务</string>
+    <string name="title_wifi">Wi-Fi</string>
+    <string name="title_about_roki">关于ROKI</string>
+
+
+
+</resources>

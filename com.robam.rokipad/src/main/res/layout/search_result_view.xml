@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="24px"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/search_bg" />
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:hint="今天做点什么呢？"
+                android:imeOptions="flagNoExtractUi|actionDone"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHighlight="@color/Black"
+                android:textColorHint="#666666"
+                android:textColorLink="@color/Black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/search_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/search_btn" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="@string/cook_history_search_text"
+            android:textColor="#888888"
+            android:textSize="24px" />
+
+        <TextView
+            android:id="@+id/txt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/cook_not_history_data_text"
+            android:textColor="#888888"
+            android:textSize="24px"
+            android:visibility="gone" />
+
+        <com.zhy.view.flowlayout.TagFlowLayout
+            android:id="@+id/search_flowlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            zhy:max_select="-1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/recipe_all_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16px"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cook_recommend_recipe_text"
+                android:textColor="#ffffff"
+                android:textSize="32px" />
+
+            <TextView
+                android:id="@+id/search_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/cook_sorry_not_search_recipe_text"
+                android:textColor="#dd8735"
+                android:textSize="26px"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <com.robam.rokipad.view.PulToLeftViewGroupl
+            android:id="@+id/pull_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recipe_show"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="14px" />
+
+        </com.robam.rokipad.view.PulToLeftViewGroupl>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_wifi_iscon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/disconnect_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/cook_broken_network_description_text"
+            android:textColor="#666666"
+            android:textSize="26px" />
+
+        <TextView
+            android:id="@+id/tv_go_network"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_blue"
+            android:gravity="center"
+            android:text="@string/cook_go_to_the_internet_text"
+            android:textColor="#ffffff"
+            android:textSize="30px" />
+
+    </LinearLayout>
+
+</LinearLayout>

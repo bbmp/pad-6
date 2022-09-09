@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1073222211425",
+    "firebase_url": "https://roki-pad686.firebaseio.com",
+    "project_id": "roki-pad686",
+    "storage_bucket": "roki-pad686.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073222211425:android:29ba01ac9479e62d45d720",
+        "android_client_info": {
+          "package_name": "com.robam.rokipad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073222211425-7rp3tk27ujd39ujtkpu3ds6oq8mn3n95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzVmRDv73K7cOdE7c9Cq3wyOoO1HTYVm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073222211425-7rp3tk27ujd39ujtkpu3ds6oq8mn3n95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

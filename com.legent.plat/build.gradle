@@ -1,0 +1,32 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion build_versions.target_sdk
+    buildToolsVersion build_versions.build_tools
+
+    defaultConfig {
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    sourceSets.main {
+        jniLibs.srcDir 'src/main/libs'  //set .so files location to libs
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    api project(':com.legent')
+    api project(':com.legent.utils.easylink')
+    api files('src/main/libs/cookbook.rule.jar')
+    implementation deps.client_mqttv
+    implementation deps.andfix
+}

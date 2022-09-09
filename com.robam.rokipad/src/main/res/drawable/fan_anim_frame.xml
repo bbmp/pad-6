@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@mipmap/fan_01" android:duration="50" />
+    <item android:drawable="@mipmap/fan_02" android:duration="50" />
+    <item android:drawable="@mipmap/fan_03" android:duration="50" />
+    <item android:drawable="@mipmap/fan_04" android:duration="50" />
+    <item android:drawable="@mipmap/fan_05" android:duration="50" />
+    <item android:drawable="@mipmap/fan_06" android:duration="50" />
+    <item android:drawable="@mipmap/fan_07" android:duration="50" />
+    <item android:drawable="@mipmap/fan_08" android:duration="50" />
+    <item android:drawable="@mipmap/fan_09" android:duration="50" />
+    <item android:drawable="@mipmap/fan_10" android:duration="50" />
+    <item android:drawable="@mipmap/fan_11" android:duration="50" />
+    <item android:drawable="@mipmap/fan_12" android:duration="50" />
+    <item android:drawable="@mipmap/fan_13" android:duration="50" />
+    <item android:drawable="@mipmap/fan_14" android:duration="50" />
+    <item android:drawable="@mipmap/fan_15" android:duration="50" />
+    <item android:drawable="@mipmap/fan_16" android:duration="50" />
+    <item android:drawable="@mipmap/fan_17" android:duration="50" />
+    <item android:drawable="@mipmap/fan_18" android:duration="50" />
+    <item android:drawable="@mipmap/fan_19" android:duration="50" />
+    <item android:drawable="@mipmap/fan_20" android:duration="50" />
+    <item android:drawable="@mipmap/fan_21" android:duration="50" />
+    <item android:drawable="@mipmap/fan_22" android:duration="50" />
+    <item android:drawable="@mipmap/fan_23" android:duration="50" />
+    <item android:drawable="@mipmap/fan_24" android:duration="50" />
+    <item android:drawable="@mipmap/fan_25" android:duration="50" />
+    <item android:drawable="@mipmap/fan_26" android:duration="50" />
+    <item android:drawable="@mipmap/fan_27" android:duration="50" />
+    <item android:drawable="@mipmap/fan_28" android:duration="50" />
+    <item android:drawable="@mipmap/fan_29" android:duration="50" />
+    <item android:drawable="@mipmap/fan_30" android:duration="50" />
+    <item android:drawable="@mipmap/fan_31" android:duration="50" />
+    <item android:drawable="@mipmap/fan_32" android:duration="50" />
+    <item android:drawable="@mipmap/fan_33" android:duration="50" />
+    <item android:drawable="@mipmap/fan_34" android:duration="50" />
+    <item android:drawable="@mipmap/fan_35" android:duration="50" />
+    <item android:drawable="@mipmap/fan_36" android:duration="50" />
+    <item android:drawable="@mipmap/fan_37" android:duration="50" />
+    <item android:drawable="@mipmap/fan_38" android:duration="50" />
+    <item android:drawable="@mipmap/fan_39" android:duration="50" />
+    <item android:drawable="@mipmap/fan_40" android:duration="50" />
+
+</animation-list>
+

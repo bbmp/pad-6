@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--默认的时候-->
+    <item android:drawable="@drawable/seekbar_thumb_normal"/>
+</selector>

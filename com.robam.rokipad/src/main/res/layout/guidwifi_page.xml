@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_center_bg"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/guid_wifi_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:background="#33303237">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="WiFi连接"
+            android:textColor="#3468d3"
+            android:textSize="30px" />
+
+        <TextView
+            android:id="@+id/guid_wifi_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:text="跳过"
+            android:textColor="#666666"
+            android:textSize="34px" />
+    </RelativeLayout>
+
+    <!--  <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+          android:layout_marginLeft="80dp"
+          android:layout_marginRight="80dp"
+          android:layout_marginTop="25dp"
+          android:orientation="horizontal"
+          android:gravity="center_vertical"
+          android:background="@drawable/wifi_list_bg"
+          >
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="30dp"
+              android:text="无线局域网"
+              android:textColor="#ffffff"
+              android:textSize="24sp"
+              />
+
+          <View
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              />
+
+          <ImageView
+              android:id="@+id/wifi_control"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@mipmap/wifi_off"
+              android:layout_marginRight="30dp"
+              />
+
+      </LinearLayout>-->
+
+    <!-- <LinearLayout
+         android:id="@+id/select_show"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         >
+
+         <include
+             layout="@layout/wifi_select_item_view"
+             />
+
+     </LinearLayout>
+ -->
+
+
+    <FrameLayout
+        android:id="@+id/wifi_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>

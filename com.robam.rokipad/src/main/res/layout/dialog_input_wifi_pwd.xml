@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wifiauthdg_ll_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_center_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:background="#33303237">
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="130px"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/main_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/main_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="返回"
+                android:textColor="#ffffff"
+                android:textSize="34px" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#3468d3"
+            android:textSize="30px" />
+
+        <!--  <TextView
+              android:id="@+id/guid_wifi_skip"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_centerVertical="true"
+              android:text="跳过"
+              android:paddingRight="20dp"
+              android:textColor="#666666"
+              android:textSize="20sp" />-->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="360px"
+        android:layout_height="80px"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/wifi_pad_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+<!--        <EditText-->
+<!--            android:id="@+id/pwd"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:background="@null"-->
+<!--            android:hint="@string/pwd_hit"-->
+<!--            android:imeOptions="actionDone"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:textColor="@color/c20"-->
+<!--            android:textColorHint="#666666"-->
+<!--            android:textSize="26px">-->
+
+<!--            <requestFocus />-->
+<!--        </EditText>-->
+
+<!--        <View-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:layout_weight="1" />-->
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/eye_btn"-->
+<!--            android:layout_width="40px"-->
+<!--            android:layout_height="35px"-->
+<!--            android:layout_marginRight="32px"-->
+<!--            android:src="@mipmap/eye_close" />-->
+
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:background="@null"
+            android:hint="@string/pwd_hit"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:textColor="@color/c20"
+            android:textColorHint="#666666"
+            android:textSize="26px">
+
+        </EditText>
+
+
+
+
+        <ImageView
+            android:id="@+id/eye_btn"
+            android:layout_width="40px"
+            android:layout_height="35px"
+            android:padding="5dp"
+            android:layout_marginRight="32px"
+            android:src="@mipmap/eye_close" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_con"
+        android:layout_width="360px"
+        android:layout_height="56px"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/wifi_pad_bg"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="联 网"
+            android:textColor="#ffffff"
+            android:textSize="30px" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

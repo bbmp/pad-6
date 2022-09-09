@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_device_add_select_desc_text">请选择您要添加的厨电</string>
+    <string name="dialog_affirm_text">确认</string>
+    <string name="dialog_roger_text">知道了</string>
+    <string name="dialog_ok_text">确定</string>
+    <string name="dialog_cancel_text">取消</string>
+    <string name="dialog_cancel_off_device_text">取消关机</string>
+    <string name="dialog_off_device_text">直接关机</string>
+    <string name="dialog_off_promptly_device_text">立即关闭</string>
+    <string name="dialog_fan_stove_link_text">系统检测到您已关闭灶具，\n烟机将在计时后关闭。</string>
+    <string name="dialog_fan_regular_ventilation_text">系统正在为您进行自动换气处理，请耐心等待。</string>
+    <string name="dialog_fan_periodically_text">系统正在为您进行自动换气处理，请耐心等待。</string>
+    <string name="dialog_fan_delay_shutdown_content">烟机将延时关机，为您处理\n残余油烟</string>
+    <string name="dialog_fan_close_anim">关 闭 动 画</string>
+    <string name="dialog_fan_clean_oil">您的油网需要清洗了</string>
+    <string name="dialog_fan_regularly_remind">定时提醒时间已到！</string>
+    <string name="dialog_fan_8236s_clean_text">烟机挡风板将锁定在打开状态\n可放心清洗</string>
+    <string name="dialog_fan_5916s_clean_text">烟机挡风板将锁定在打开状态,\n可放心拆卸、清洗油网并安装</string>
+</resources>

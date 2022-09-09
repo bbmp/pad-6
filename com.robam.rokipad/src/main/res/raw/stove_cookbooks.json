@@ -1,0 +1,274 @@
+{
+  "cookbooks": [
+    {
+      "id": 0,
+      "name": "煎蛋",
+      "dcs": [
+        {
+          "dc": "RRQZ"
+        }
+      ],
+      "steps": [
+        {
+          "no": 1,
+          "image": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/step/step245de92d-6ee5-4071-a8df-39761f877627.jpg",
+          "desc": "热锅，准备好食用油和鸡蛋",
+          "dc": "RRQZ",
+          "params": [
+            {
+              "platCode": "RQZ01",
+              "params": [
+                {
+                  "code": "fanGear",
+                  "codeName": "烟机风量",
+                  "value": 3,
+                  "type": 1,
+                  "valueName": "3档"
+                },
+                {
+                  "code": "stoveGear",
+                  "codeName": "炉头功率(档位)",
+                  "value": 5,
+                  "type": 1,
+                  "valueName": "5档"
+                },
+                {
+                  "code": "needTime",
+                  "codeName": "时间",
+                  "value": 130,
+                  "type": 0,
+                  "valueName": ""
+                }
+              ],
+              "rules": []
+            },
+            {
+              "platCode": "RQZ02",
+              "params": [
+                {
+                  "code": "fanGear",
+                  "codeName": "烟机风量",
+                  "value": 3,
+                  "type": 1,
+                  "valueName": "3档"
+                },
+                {
+                  "code": "stoveGear",
+                  "codeName": "炉头功率(档位)",
+                  "value": 5,
+                  "type": 1,
+                  "valueName": "5档"
+                },
+                {
+                  "code": "needTime",
+                  "codeName": "时间",
+                  "value": 20,
+                  "type": 0,
+                  "valueName": ""
+                }
+              ],
+              "rules": []
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "image": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/step/stepbe43bfb2-dffa-49a2-b3ba-a78cd8c03dd6.JPG",
+          "desc": "锅中刷上一层食用油紧接着倒入一个鸡蛋，并盖上锅盖",
+          "dc": "RRQZ",
+          "params": [
+            {
+              "platCode": "RQZ01",
+              "params": [
+                {
+                  "code": "fanGear",
+                  "codeName": "烟机风量",
+                  "value": 3,
+                  "type": 1,
+                  "valueName": "3档"
+                },
+                {
+                  "code": "stoveGear",
+                  "codeName": "炉头功率(档位）",
+                  "value": 6,
+                  "type": 1,
+                  "valueName": "6档"
+                },
+                {
+                  "code": "needTime",
+                  "codeName": "时间",
+                  "value": 96,
+                  "type": 0,
+                  "valueName": ""
+                }
+              ],
+              "rules": []
+            },
+            {
+              "platCode": "RQZ02",
+              "params": [
+                {
+                  "code": "fanGear",
+                  "codeName": "烟机风量",
+                  "value": 3,
+                  "type": 1,
+                  "valueName": "3档"
+                },
+                {
+                  "code": "stoveGear",
+                  "codeName": "炉头功率(档位）",
+                  "value": 3,
+                  "type": 1,
+                  "valueName": "3档"
+                },
+                {
+                  "code": "needTime",
+                  "codeName": "时间",
+                  "value": 130,
+                  "type": 0,
+                  "valueName": ""
+                }
+              ],
+              "rules": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "煎饺",
+      "dcs": [
+        {
+          "dc": "RRQZ"
+        }
+      ],
+      "steps": [
+        {
+          "no": 1,
+          "image": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/step/step245de92d-6ee5-4071-a8df-39761f877627.jpg",
+          "desc": "在底径21cm平底锅中一次摆入速冻饺子6—8只，倒入150克清水至没过饺子底部，盖好锅盖",
+          "dc": "RRQZ",
+          "params": [
+            {
+              "platCode": "RQZ01",
+              "params": [
+                {
+                  "code": "fanGear",
+                  "codeName": "烟机风量",
+                  "value": 1,
+                  "type": 1,
+                  "valueName": "1档"
+                },
+                {
+                  "code": "stoveGear",
+                  "codeName": "炉头功率(档位)",
+                  "value": 10,
+                  "type": 1,
+                  "valueName": "10档"
+                },
+                {
+                  "code": "needTime",
+                  "codeName": "时间",
+                  "value": 105,
+                  "type": 0,
+                  "valueName": ""
+                }
+              ],
+              "rules": []
+            },
+            {
+              "platCode": "RQZ02",
+              "params": [
+                {
+                  "code": "fanGear",
+                  "codeName": "烟机风量",
+                  "value": 1,
+                  "type": 1,
+                  "valueName": "1档"
+                },
+                {
+                  "code": "stoveGear",
+                  "codeName": "炉头功率(档位)",
+                  "value": 10,
+                  "type": 1,
+                  "valueName": "10档"
+                },
+                {
+                  "code": "needTime",
+                  "codeName": "时间",
+                  "value": 105,
+                  "type": 0,
+                  "valueName": ""
+                }
+              ],
+              "rules": []
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "image": "http://roki-test.oss-cn-qingdao.aliyuncs.com/cookbook/step/stepbe43bfb2-dffa-49a2-b3ba-a78cd8c03dd6.JPG",
+          "desc": "大火煮至水快干",
+          "dc": "RRQZ",
+          "params": [
+            {
+              "platCode": "RQZ01",
+              "params": [
+                {
+                  "code": "fanGear",
+                  "codeName": "烟机风量",
+                  "value": 2,
+                  "type": 1,
+                  "valueName": "2档"
+                },
+                {
+                  "code": "stoveGear",
+                  "codeName": "炉头功率(档位）",
+                  "value": 8,
+                  "type": 1,
+                  "valueName": "8档"
+                },
+                {
+                  "code": "needTime",
+                  "codeName": "时间",
+                  "value": 450,
+                  "type": 0,
+                  "valueName": ""
+                }
+              ],
+              "rules": []
+            },
+            {
+              "platCode": "RQZ02",
+              "params": [
+                {
+                  "code": "fanGear",
+                  "codeName": "烟机风量",
+                  "value": 2,
+                  "type": 1,
+                  "valueName": "2档"
+                },
+                {
+                  "code": "stoveGear",
+                  "codeName": "炉头功率(档位）",
+                  "value": 6,
+                  "type": 1,
+                  "valueName": "6档"
+                },
+                {
+                  "code": "needTime",
+                  "codeName": "时间",
+                  "value": 96,
+                  "type": 0,
+                  "valueName": ""
+                }
+              ],
+              "rules": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

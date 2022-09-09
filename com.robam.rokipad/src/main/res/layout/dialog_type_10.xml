@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="560px"
+        android:layout_height="340px"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_toast_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="259px"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="@string/stove_alarm"
+                android:textColor="@color/white"
+                android:textSize="36px" />
+
+            <TextView
+                android:id="@+id/tv_content_text"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30px" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:background="#666666" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:id="@+id/relative_miss"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="50px"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="153dp"
+                android:layout_marginBottom="6dp"
+                android:scaleType="centerInside"
+                android:src="@mipmap/ic_notic_phone" />
+
+            <TextView
+                android:id="@+id/tv_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginBottom="12dp"
+                android:layout_toRightOf="@+id/iv_phone"
+                android:text="@string/forsale_phone_hz"
+                android:textColor="#4368D3"
+                android:textSize="34px" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

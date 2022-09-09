@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="device_model_health_hot_oil_text">健康热油</string>
+    <string name="device_health_hot_oil_desc_text">智能识别油温，您的\n炒炸小助手</string>
+    <string name="device_head_left_text">左炉头</string>
+    <string name="device_head_right_text">右炉头</string>
+    <string name="device_model_current_text">当前模式:</string>
+    <string name="device_head_current_text">当前炉头:</string>
+    <string name="device_temp_good_text">最佳温度:</string>
+    <string name="device_automatic_smoke_detector_text">智能烟感</string>
+    <string name="device_close_automatic_smoke_detector_text">点击关闭智能烟感</string>
+    <string name="device_current_fan_text">当前:</string>
+    <string name="device_add_big_fan_text">加大风量中</string>
+    <string name="device_fan_small_text">小档</string>
+    <string name="device_fan_middle_text">中档</string>
+    <string name="device_fan_big_text">大档</string>
+    <string name="device_stove_countDown_timing">倒计时已设置</string>
+    <string name="device_stove_one_open_pow">为了安全请在灶具实体端开火</string>
+    <string name="device_stove_not_add">不可重复添加设备</string>
+    <string name="device_off_line">灶具已离线</string>
+    <string name="device_stove_not_delete_user">灶具不支持删除控制权</string>
+    <string name="device_pot_not_delete_user">无人锅不支持删除控制权</string>
+    <string name="device_not_login">请先登录</string>
+    <string name="device_open_stove">请先开启灶具</string>
+    <string name="device_stove_auxiliary_heat">辅助关火</string>
+    <string name="device_not_device_text">此功能需要连接智能灶，\n是否去连接？</string>
+    <string name="device_link_text">连接</string>
+    <string name="device_hot_oil_good_text">已达到最佳油温，建议立即加入\n食材。</string>
+    <string name="device_hot_oil_alarm_text">油温过高，建议减小灶具火力后\n再加入烹饪食材。</string>
+    <string name="device_left_stove_dry_alarm_text">识别到(左灶)干烧,已为您自动\n关闭灶具。</string>
+    <string name="device_left_stove_dry_alarm_close_fir_text">识别到(左灶)干烧,请立即关火。</string>
+    <string name="device_right_stove_dry_alarm_text">识别到(右灶)干烧,已为您自动\n关闭灶具。</string>
+    <string name="device_right_stove_dry_alarm_close_fir_text">识别到(右灶)干烧,请立即关火。</string>
+    <string name="device_dow_stove_dry_alarm_close_fir_text">识别到(左灶和右灶)干烧,请立即关火。</string>
+    <string name="device_dow_stove_dry_alarm_text">识别到(左灶和右灶)干烧,已为您自动\n关闭灶具。</string>
+
+    <!--烟机-->
+    <string name="device_fan_hover_text">悬停：</string>
+    <string name="device_fan_startup_shutdown_text">开/关机</string>
+    <string name="device_fan_left_wave_text">左挥：</string>
+    <string name="device_fan_left_wave_content">弱档/关闭风量</string>
+    <string name="device_fan_right_wave_text">右挥：</string>
+    <string name="device_fan_right_wave_content">爆炒/强档</string>
+    <string name="device_fan_3d_wave_content">AI隔空智控操作说明</string>
+    <string name="device_fan_3d_wave_close_text">AI隔空智控操作说明</string>
+    <string name="device_fan_3d_wave_close_content">当前AI隔空智控功能未开启，</string>
+    <string name="device_fan_wave_go">前往</string>
+    <string name="device_fan_wave_open_feature_content">开启此功能。</string>
+    <string name="device_fan_smart_set_content"><u>智能设定</u></string>
+    <string name="device_fan_clean_lock_content">挡风板、AI隔空智控、屏幕、按键均已处于锁定状态。\n油网拆卸、清洗完毕后，请安装回原位。</string>
+<!--    <string name="device_fan_clean_lock_content_8236s">挡风板、屏幕、按键均已处于锁定状态。\n油网拆卸、清洗完毕后，请安装回原位。</string>-->
+
+
+    <!--无人锅-->
+    <string name="device_pot_add_descriptions">无人锅添加说明</string>
+    <string name="device_pot_add_desc_front">长按无人锅上的“</string>
+    <string name="device_pot_add_desc_center">”至其</string>
+    <string name="device_pot_add_desc_center2">闪烁，等待3秒“</string>
+    <string name="device_pot_add_desc_after">”常亮</string>
+    <string name="device_pot_add_desc_succeed">即添加成功。</string>
+
+    <string name="device_pot_device_name">无人锅</string>
+    <string name="device_pot_temp">实时温度</string>
+    <string name="device_pot_cooking_assistant">一键烹饪小助手</string>
+    <string name="device_pot_cooking_show">烹饪小贴士</string>
+    <string name="device_pot_await">待机中</string>
+    <string name="device_pot_off_line">已离线</string>
+    <string name="device_pot_overheating">过热</string>
+    <string name="device_pot_temp_overheating">温度太高啦！</string>
+    <string name="device_pot_cooking_tips">烹饪小贴士</string>
+    <string name="device_pot_alarm_E1">温度传感器报警</string>
+    <string name="device_pot_alarm_E2">电量低报警</string>
+    <string name="device_pot_alarm_E3">防干烧报警</string>
+
+
+</resources>

@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- 对话框样式 -->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Dialog_frombottom_style" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/frombottom</item>  //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/tobottom</item>    //退出时的动画
+    </style>
+
+    <style name="professtion_bottom" parent="Theme_Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowAnimationStyle">@style/Dialog_frombottom_style</item>
+    </style>
+
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <item name="android:windowBackground">@mipmap/ic_center_bg</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!--菜单按钮样式-->
+    <style name="text_menu">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="text_menu_desc" parent="text_menu">
+        <item name="android:textColor">#9B9B9B</item>
+    </style>
+
+    <!--    温度控件字体样式-->
+    <style name="progress_text_font">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+    </style>
+    <!--菜单按钮样式-->
+    <style name="text_menu_light">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+</resources>

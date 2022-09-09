@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tag_weekly_ventilation_date_hour" type="id" />
+    <item name="tag_weekly_ventilation_date_minute" type="id" />
+    <item name="tag_recipe_griditem_view" type="id" />
+    <item name="tag_fan_smoke_view" type="id" />
+    <item name="tag_pot_item_view" type="id" />
+    <item name="tag_pot_step_pause_flag" type="id" />
+
+    <!--recycler封装的tag属性-->
+    <item name="tag_recycler_holder" type="id" />
+</resources>

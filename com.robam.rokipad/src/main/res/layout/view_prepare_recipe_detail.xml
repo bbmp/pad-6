@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/shape_layout_bg"
+              android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/cook_prepare_recipe_text"
+        android:textColor="#888888"
+        android:textSize="30px"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#55888888"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:layout_marginTop="30dp"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/tv_desc_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="@color/white"
+            android:textSize="26px"/>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/ll_start_cook"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_blue">
+
+        <TextView
+            android:id="@+id/tv_start_cook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/cook_start_text"
+            android:textColor="@color/white"
+            android:textSize="26px"/>
+
+
+    </RelativeLayout>
+    
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#666666"
+        android:gravity="center"
+        android:textSize="20px"
+        android:text="@string/cook_done_prepare_start_text"
+        android:layout_marginBottom="25dp"/>
+
+</LinearLayout>

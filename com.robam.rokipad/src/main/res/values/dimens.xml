@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- home -->
+    <dimen name="home_panel_usual_button_height">@dimen/common_button_height</dimen>
+    <!--<dimen name="home_panel_stop_button_width">@dimen/common_button_width</dimen>-->
+    <dimen name="home_panel_stop_button_height">@dimen/common_button_height</dimen>
+    <!--<dimen name="home_panel_history_button_width">@dimen/common_button_width</dimen>-->
+    <dimen name="home_panel_history_button_height">@dimen/common_button_height</dimen>
+    <dimen name="home_panel_subscribe_panel_height">250dp</dimen>
+
+    <!-- home grid -->
+    <dimen name="home_grid_item_span_width">15dp</dimen>
+    <dimen name="home_grid_item_cell_height">92dp</dimen>
+
+    <!-- wizard -->
+    <dimen name="wizard_image1_size">250dp</dimen>
+    <dimen name="wizard_image2_width">250dp</dimen>
+    <dimen name="wizard_image2_height">150dp</dimen>
+
+    <!-- new -->
+    <dimen name="title_icon_width">62dp</dimen>
+    <dimen name="title_icon_height">24dp</dimen>
+    <dimen name="modes_tab_height">40dp</dimen>
+
+    <!-- recipeBook new -->
+    <dimen name="recipe_grid_item_small_img_height">182dp</dimen>
+    <dimen name="recipe_grid_item_medium_img_height">214dp</dimen>
+    <!-- recipeBook -->
+    <dimen name="recipe_item_margin">12dp</dimen>
+    <dimen name="recipe_item_small_height">255dp</dimen>
+    <dimen name="recipe_item_middle_height">292dp</dimen>
+    <dimen name="recipe_item_margin_line">2dp</dimen>
+    <!-- 底部横线间距 -->
+    <dimen name="recipe_item_width">260dp</dimen>
+    <dimen name="recipe_item_small_img_height">211dp</dimen>
+    <dimen name="recipe_item_middle_img_height">248dp</dimen>
+    <dimen name="recipe_item_title_height">44dp</dimen>
+    <dimen name="recipe_item_collect_margin_right">11dp</dimen>
+    <dimen name="recipe_item_add_margin_right">16dp</dimen>
+    <dimen name="recipe_item_text_margin_left">21dp</dimen>
+    <dimen name="recipe_item_text_size">22sp</dimen>
+    <dimen name="recipe_category_list_width">121dp</dimen>
+    <dimen name="recipe_category_item_height">61dp</dimen>
+    <dimen name="recipe_category_item_text_size">22sp</dimen>
+    <dimen name="recipe_search_width">703dp</dimen>
+    <dimen name="recipe_btn_search_width">90dp</dimen>
+    <dimen name="recipe_circle_top_width">63dp</dimen>
+    <dimen name="recipe_circle_top_margin_right">17dp</dimen>
+    <dimen name="recipe_circle_top_margin_bottom">39dp</dimen>
+    <dimen name="recipe_title_size">28sp</dimen>
+    <dimen name="recipe_pop_width">152dp</dimen>
+    <dimen name="recipe_pop_height">165dp</dimen>
+    <dimen name="recipe_pop_text_size">19sp</dimen>
+    <dimen name="recipe_pop_ic_margin_left">9dp</dimen>
+    <dimen name="pop_triangle_width">7dp</dimen>
+    <dimen name="pop_triangle_height">5dp</dimen>
+    <!-- collection -->
+    <dimen name="collection_item_text_size">21sp</dimen>
+    <dimen name="collection_item_small_height">220dp</dimen>
+    <dimen name="collection_item_middle_height">252dp</dimen>
+    <dimen name="collection_item_width">225dp</dimen>
+    <dimen name="collection_item_small_img_height">182dp</dimen>
+    <dimen name="collection_item_middle_img_height">214dp</dimen>
+    <dimen name="collection_item_title_height">38dp</dimen>
+    <dimen name="collection_item_collect_margin_right">11dp</dimen>
+    <dimen name="collection_item_add_margin_right">9dp</dimen>
+    <dimen name="collection_item_text_margin_left">18dp</dimen>
+
+    <!-- 菜谱介绍 -->
+    <dimen name="introduce_list_step_margin">24dp</dimen>
+    <dimen name="introduce_order_num_size">38sp</dimen>
+    <dimen name="introduce_order_num_margin">12dp</dimen>
+    <dimen name="introduce_text_content_size">20sp</dimen>
+    <dimen name="introduce_text_content_margin_bottom">10dp</dimen>
+    <dimen name="introduce_layout_name_height">102dp</dimen>
+    <dimen name="introduce_layout_left_width">653dp</dimen>
+    <dimen name="introduce_text_name_margin_left">30dp</dimen>
+    <dimen name="introduce_text_name_size">34sp</dimen>
+    <dimen name="introduce_collect_margin_right">19dp</dimen>
+    <dimen name="introduce_ic_width">48dp</dimen>
+    <dimen name="introduce_ic_height">48dp</dimen>
+    <dimen name="introduce_add_margin_right">11dp</dimen>
+    <dimen name="introduce_back_width">68dp</dimen>
+    <dimen name="introduce_back_height">56dp</dimen>
+    <dimen name="introduce_back_margin_left">16dp</dimen>
+    <dimen name="introduce_back_margin_top">12dp</dimen>
+    <dimen name="introduce_close_margin_right">11dp</dimen>
+    <dimen name="introduce_close_margin_top">16dp</dimen>
+    <dimen name="introduce_close_width">40dp</dimen>
+    <dimen name="introduce_close_height">40dp</dimen>
+    <dimen name="introduce_divide_margin_top">62dp</dimen>
+
+    <!-- 备菜 -->
+    <dimen name="prepare_start_text_size">28sp</dimen>
+    <dimen name="prepare_start_height">103dp</dimen>
+    <dimen name="prepare_main_title_size">28sp</dimen>
+    <dimen name="prepare_main_title_margin_top">21dp</dimen>
+    <dimen name="prepare_main_content_margin_top">13dp</dimen>
+    <dimen name="prepare_assist_title_margin_top">40dp</dimen>
+    <dimen name="prepare_dialog_width">505dp</dimen>
+    <dimen name="prepare_dialog_height">332dp</dimen>
+    <dimen name="prepare_dialog_margin_top">31dp</dimen>
+    <dimen name="prepare_dialog_margin_left">51dp</dimen>
+    <dimen name="prepare_dialog_stove_size">168dp</dimen>
+    <dimen name="prepare_dialog_tv_stove_size">48sp</dimen>
+    <dimen name="prepare_dialog_text_margin_top">2dp</dimen>
+    <dimen name="prepare_dialog_hint_height">54dp</dimen>
+    <dimen name="prepare_dialog_hint_size">22sp</dimen>
+
+    <!-- 做菜中 -->
+    <dimen name="cooking_layout_name_height">153dp</dimen>
+    <dimen name="cooking_text_name_margin_top">14dp</dimen>
+    <dimen name="cooking_text_step_margin_bottom">55dp</dimen>
+    <dimen name="cooking_text_step_size">32sp</dimen>
+    <dimen name="cooking_text_content_size">22sp</dimen>
+    <dimen name="cooking_text_step_margin_left">15dp</dimen>
+    <dimen name="cooking_fan_margin_left">67dp</dimen>
+    <dimen name="cooking_fan_margin_top">124dp</dimen>
+    <dimen name="cooking_level_margin_top">10dp</dimen>
+    <dimen name="cooking_level_margin_Left">74dp</dimen>
+    <dimen name="cooking_level_size">54sp</dimen>
+    <dimen name="cooking_ic_time_margin_left">96dp</dimen>
+    <dimen name="cooking_text_time_margin_left">7dp</dimen>
+    <dimen name="cooking_text_time_size">18sp</dimen>
+    <dimen name="cooking_count_down_margin_bottom">60dp</dimen>
+    <dimen name="cooking_ic_next_margin_left">14dp</dimen>
+    <dimen name="cooking_text_next_margin_left">106dp</dimen>
+
+    <!-- 激活 -->
+    <dimen name="active_register_text_size">21sp</dimen>
+
+    <!-- 设置 -->
+    <dimen name="setting_content_text_size">19sp</dimen>
+    <dimen name="hint_dialog_width">422dp</dimen>
+    <dimen name="hint_dialog_height">172dp</dimen>
+    <dimen name="setting_pop_width">82dp</dimen>
+    <dimen name="dialog_add_user_width">302dp</dimen>
+    <dimen name="dialog_add_user_height">350dp</dimen>
+    <dimen name="dialog_add_user_hint_size">18sp</dimen>
+
+    <!-- 重载 -->
+    <dimen name="recipe_search_height">40dp</dimen>
+    <dimen name="recipe_search_margin_left">15dp</dimen>
+    <dimen name="recipe_search_img_size">12dp</dimen>
+    <dimen name="recipe_search_margin_top">6dp</dimen>
+    <dimen name="recipe_search_content_padding">6dp</dimen>
+    <dimen name="recipe_search_text_size">13sp</dimen>
+    <dimen name="common_margin">16dp</dimen>
+    <!-- 电烤箱弹窗提示-->
+    <dimen name="common_oven_tip_height">380px</dimen>
+    <dimen name="common_oven_tip_height2">320px</dimen>
+    <dimen name="common_oven_tip_height3">350px</dimen>
+    <dimen name="common_stove_popWindown_height">380px</dimen>
+    <dimen name="micro_stop_dialog_height">380px</dimen>
+
+    <dimen name="door_not_close_dialog_height">455px</dimen>
+
+    <!-- 倒计时弹窗-->
+    <dimen name="countdown_dialog">398px</dimen>
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_center_bg"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+
+        <TextView
+            android:id="@+id/tv_fire_eeg_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="32sp"
+            android:layout_marginTop="38dp"
+            android:textColor="@android:color/white"
+            android:text="煎鸡蛋" />
+
+        <ImageView
+            android:id="@+id/img_fire_eeg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="70dp"
+            android:src="@mipmap/img_fried_egg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:text="@string/frided_egg_cook" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_left_start_cook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_fire_eeg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:background="@drawable/button_blue"
+            android:text="@string/cook_start_text"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_center_line"
+        android:layout_width="100dp"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="80dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/line_convenient"
+            android:background="#80666666" />
+
+        <ImageView
+            android:id="@+id/iv_array_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_below="@id/line_convenient"
+            android:layout_alignBaseline="@+id/line_convenient"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/ic_arrow_up" />
+
+        <TextView
+            android:id="@+id/tv_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_array_up"
+            android:layout_centerInParent="true"
+            android:text="收起"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+
+        <TextView
+            android:id="@+id/tv_hot_milk_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="32sp"
+            android:layout_marginTop="38dp"
+            android:text="热牛奶"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/img_hot_milk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/img_hot_milk" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="40dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:text="@string/hot_milk_cook" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_right_start_cook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_hot_milk"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:background="@drawable/button_blue"
+            android:text="@string/cook_start_text"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+</LinearLayout>

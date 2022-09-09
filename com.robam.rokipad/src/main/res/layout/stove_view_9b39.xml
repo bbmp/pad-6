@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <com.robam.rokipad.view.Stove9b39ChildrenView
+                android:id="@+id/view_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="100dp"
+            android:background="#80666666"
+            />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <com.robam.rokipad.view.Stove9b39ChildrenView
+                android:id="@+id/view_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/lock_start_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone">
+
+        <com.robam.rokipad.view.RippleImageView
+            android:id="@+id/lock_start"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:show_spacing_time="800"
+            app:imageViewWidth="75dp"
+            app:imageViewHeigth="75dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/txt_lock"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="童锁已开启"
+            android:layout_below="@id/lock_start"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textColor="#666666"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lock_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/stove_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/stove_lock_gray"
+            />
+
+        <TextView
+            android:id="@+id/lock_txt"
+            android:layout_marginTop="12dp"
+            android:layout_below="@id/stove_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stove_lock"
+            android:textSize="26px"
+            android:textColor="#666666"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.9"
+    android:background="#ffffff"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_cook_icon"
+            android:src="@mipmap/beef_icons"
+            android:paddingTop="22dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/tv_cook_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:paddingTop="20dp"
+            android:text="计时设置"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textColor="#232323"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="240px"
+        android:layout_height="264px"
+        android:src="@mipmap/lemon_icon"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/relativeLayout"
+        android:id="@+id/iv_clean_big_icon"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_clean_big_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="94px">
+
+        <TextView
+            android:id="@+id/tv_line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请切开一个"
+            android:textSize="24sp"
+            android:textColor="#232323"
+            />
+
+        <TextView
+            android:id="@+id/tv_line1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_line1"
+            android:text="柠檬"
+            android:textSize="24sp"
+            android:textColor="#dab01f"
+            />
+
+        <TextView
+            android:id="@+id/tv_line1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_line1_1"
+            android:text=","
+            android:textSize="24sp"
+            android:textColor="#232323"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_line2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_line1"
+            android:text="放入微波炉中开始工作,"
+            android:textSize="24sp"
+            android:textColor="#232323"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_line3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_line2"
+            android:text="清洁腔体内的异味儿。"
+            android:textSize="24sp"
+            android:textColor="#232323"
+            />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:background="#dab01f"
+        android:id="@+id/tv_confirm"
+        android:text="已放入柠檬"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#232323"/>
+
+
+</RelativeLayout>

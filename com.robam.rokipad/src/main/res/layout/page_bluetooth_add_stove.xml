@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_center_bg"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27px"
+        android:layout_marginTop="39px"
+        android:text="@string/device_select_dt"
+        android:textColor="@color/white"
+        android:textSize="28px" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingRight="20px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_stove_9w70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="27px"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="240dp"
+                    android:background="@drawable/shape_item_add_device_bg"
+                    android:src="@mipmap/ic_stove_9w70" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="9W70"
+                    android:textColor="@color/White"
+                    android:textSize="30px" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_stove_9b39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="240dp"
+                    android:background="@drawable/shape_item_add_device_bg"
+                    android:src="@mipmap/ic_stove_9b39" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="9B39"
+                    android:textColor="@color/White"
+                    android:textSize="30px" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_stove_9b30c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="240dp"
+                    android:background="@drawable/shape_item_add_device_bg"
+                    android:src="@mipmap/ic_stove_9b30c" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="9B30C"
+                    android:textColor="@color/White"
+                    android:textSize="30px" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_stove_9b37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="240dp"
+                    android:background="@drawable/shape_item_add_device_bg"
+                    android:src="@mipmap/ic_stove_9b37" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="9B37"
+                    android:textColor="@color/White"
+                    android:textSize="30px" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_stove_9b515"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="240dp"
+                    android:background="@drawable/shape_item_add_device_bg"
+                    android:src="@mipmap/ic_stove_9b515" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="9B515"
+                    android:textColor="@color/White"
+                    android:textSize="30px" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_stove_9w851"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="240dp"
+                    android:background="@drawable/shape_item_add_device_bg"
+                    android:src="@mipmap/ic_stove_9b515" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="9W851"
+                    android:textColor="@color/White"
+                    android:textSize="30px" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_stove_9b39e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="240dp"
+                    android:background="@drawable/shape_item_add_device_bg"
+                    android:src="@mipmap/ic_stove_9b39e" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="9B39E"
+                    android:textColor="@color/White"
+                    android:textSize="30px" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

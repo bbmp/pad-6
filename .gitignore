@@ -1,0 +1,15 @@
+*.iml
+*.iws
+*.ipr
+.idea/
+.gradle/
+local.properties
+*/build/
+build/
+captures/
+*~
+*.swp
+/PushSDK/
+*/dex-cache/*
+
+/com.legent.utils.serialport/.externalNativeBuild/

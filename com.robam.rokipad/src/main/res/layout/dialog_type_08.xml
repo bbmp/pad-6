@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="560px"
+        android:layout_height="340px"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_toast_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="260px"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_content"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:id="@+id/tv_content_text"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="30px" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:background="#666666" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_can"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#4368D3"
+                android:textSize="34px" />
+
+            <LinearLayout
+                android:layout_width="0.5px"
+                android:layout_height="match_parent"
+                android:background="#666666" />
+
+            <TextView
+                android:id="@+id/tv_ok"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#4368D3"
+                android:textSize="34px" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

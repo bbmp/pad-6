@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_center_bg"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/setting_model_registration_information_text"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_1_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_2_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_2_1_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_3_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_4_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_4_1_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_5_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_6_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_6_1_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_7_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_8_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_9_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_9_1_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_10_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_11_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_12_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_13_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_14_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_14_1_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_15_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_16_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="20dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_17_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="20dp"
+                android:lineSpacingExtra="8dp"
+                android:lines="12"
+                android:text="@string/setting_model_term_18_text"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</FrameLayout>

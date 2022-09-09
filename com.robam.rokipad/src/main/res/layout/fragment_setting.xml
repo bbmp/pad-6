@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ic_center_bg"
+        android:layout_marginRight="101dp"/>
+
+    <LinearLayout
+        android:layout_width="102dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/ic_right_bg"
+        android:gravity="center"
+
+        android:layout_alignParentRight="true">
+
+        <FrameLayout
+            android:id="@+id/fl_personal_center"
+            android:layout_width="match_parent"
+            android:layout_height="92dp">
+
+            <ImageView
+                android:id="@+id/iv_personal_center_line"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shape_set_mode_line"/>
+
+            <ImageView
+                android:id="@+id/iv_personal_center_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_menu_setting_personal_center_select"/>
+
+            <TextView
+                android:id="@+id/tv_personal_center_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/title_personal_center"
+                android:textSize="20px"
+                android:gravity="bottom|center"
+                android:textColor="@color/menu_setting_model_select_text"
+                android:layout_marginBottom="14dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_smart"
+            android:layout_width="match_parent"
+            android:layout_height="92dp">
+
+            <ImageView
+                android:id="@+id/iv_smart_line"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="1dp"
+                android:visibility="gone"
+                android:background="@drawable/shape_set_mode_line"/>
+
+            <ImageView
+                android:id="@+id/iv_smart_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_menu_setting_smart_set"/>
+
+            <TextView
+                android:id="@+id/tv_smart_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/title_smart_set"
+                android:textSize="20px"
+                android:gravity="bottom|center"
+                android:textColor="@color/menu_setting_model_text"
+                android:layout_marginBottom="14dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_after_service"
+            android:layout_width="match_parent"
+            android:layout_height="92dp">
+
+            <ImageView
+                android:id="@+id/iv_after_service_line"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="1dp"
+                android:visibility="gone"
+                android:background="@drawable/shape_set_mode_line"/>
+
+            <ImageView
+                android:id="@+id/iv_after_service_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_menu_setting_after_service"/>
+
+            <TextView
+                android:id="@+id/tv_after_service_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/title_after_service"
+                android:textSize="20px"
+                android:gravity="bottom|center"
+                android:textColor="@color/menu_setting_model_text"
+                android:layout_marginBottom="14dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="92dp">
+
+            <ImageView
+                android:id="@+id/iv_wifi_line"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="1dp"
+                android:visibility="gone"
+                android:background="@drawable/shape_set_mode_line"/>
+
+            <ImageView
+                android:id="@+id/iv_wifi_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_menu_setting_wifi"/>
+
+            <TextView
+                android:id="@+id/tv_wifi_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/title_wifi"
+                android:textSize="20px"
+                android:gravity="bottom|center"
+                android:textColor="@color/menu_setting_model_text"
+                android:layout_marginBottom="14dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_about_roki"
+            android:layout_width="match_parent"
+            android:layout_height="92dp">
+
+            <ImageView
+                android:id="@+id/iv_about_roki_line"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="1dp"
+                android:visibility="gone"
+                android:background="@drawable/shape_set_mode_line"/>
+
+            <ImageView
+                android:id="@+id/iv_about_roki_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_menu_setting_about_roki"/>
+
+            <TextView
+                android:id="@+id/tv_about_roki_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/aboutRoki"
+                android:textSize="20px"
+                android:gravity="bottom|center"
+                android:textColor="@color/menu_setting_model_text"
+                android:layout_marginBottom="14dp"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <com.robam.rokipad.ui.view.BanSlidingViewPage
+        android:id="@+id/vp_setting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="102dp"/>
+
+
+</RelativeLayout>

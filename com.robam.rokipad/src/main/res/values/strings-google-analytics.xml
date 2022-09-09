@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="google_screen_name">6.86Pad_设备</string>
+    <string name="google_screen_fan_home">烟机页</string>
+    <string name="google_screen_stove_home">灶具页</string>
+    <string name="google_screen_login_home">登录页</string>
+    <string name="google_screen_wifi_home">启动WIFI页</string>
+    <string name="google_screen_recipe_home">菜谱列表页</string>
+    <string name="google_screen_recipe_detail">菜谱详情页</string>
+    <string name="google_screen_recipe_preStep">菜谱备菜页</string>
+    <string name="google_screen_recipe_cook">菜谱烹饪页</string>
+    <string name="google_screen_personal_center">个人中心页</string>
+    <string name="google_screen_smart_set">智能设定页</string>
+    <string name="google_screen_after_service">售后服务页</string>
+    <string name="google_screen_wifi">WI-FI页</string>
+    <string name="google_screen_about_roki">关于ROKI页</string>
+    <string name="google_screen_stove_add_not">未添加灶具页</string>
+    <string name="google_screen_bluetooth_add">蓝牙添加列表页</string>
+    <string name="google_screen_scan_login">二维码登录页</string>
+
+    <string name="google_screen_skip">点击:登录页跳过</string>
+    <string name="google_screen_send_auth_code">点击:发送验证码</string>
+    <string name="google_screen_fan_light_open">灯光:开</string>
+    <string name="google_screen_fan_light_close">灯光:关</string>
+    <string name="google_screen_fan_level_small">档位:小</string>
+    <string name="google_screen_fan_level_middle">档位:中</string>
+    <string name="google_screen_fan_level_big">档位:大</string>
+    <string name="google_screen_stove_add">点击:添加灶具</string>
+    <string name="google_screen_add_device">点击:添加新设备</string>
+    <string name="google_screen_login">点击:登录</string>
+    <string name="google_screen_logout">点击:退出登录</string>
+    <string name="google_screen_factory_reset">点击:恢复出厂设置</string>
+    <string name="google_screen_breath_time_week_switch">通风换气周开关:</string>
+    <string name="google_screen_aeration_switch">通风换气开关:</string>
+    <string name="google_screen_aeration_switch_day">通风换气天:</string>
+    <string name="google_screen_breath_time_week">通风换气开关周，时间:</string>
+    <string name="google_screen_oil_clean_switch">清洗提示开关:</string>
+    <string name="google_screen_fan_stove_link">烟灶联动开关:</string>
+    <string name="google_screen_fan_stove_level_link">烟灶档位联动开关:</string>
+    <string name="google_screen_fan_stove_delay_switch">烟灶联动延时关机开关:</string>
+    <string name="google_screen_fan_stove_delay_switch_time">烟灶联动延时关机时间:</string>
+
+    <string name="google_screen_wifi_switch">无线局域网开关:</string>
+    <string name="google_screen_skip_after">点击:跳转到后台</string>
+    <string name="google_screen_down">点击:升级</string>
+    <string name="google_screen_term_sheet">点击:使用条款</string>
+
+    <string name="google_screen_stove_lock">童锁:</string>
+    <string name="google_screen_stove_level_add">档位:增加</string>
+    <string name="google_screen_stove_level_decrease">档位:减小</string>
+    <string name="google_screen_stove_time_close">定时关灶具时间:</string>
+    <string name="google_screen_stove_close">灶具开关:</string>
+
+</resources>

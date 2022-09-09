@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_weight="0.30">
+
+        <com.robam.rokipad.view.RoundImageView
+            android:id="@+id/riv_image_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/shape_radius"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:id="@+id/v_pre_bg"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="80dp"
+            android:background="@color/white"
+            android:visibility="gone">
+
+        </View>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_pre"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_recipe_pre_bg"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fl_prepare_recipe_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_weight="0.32"
+        android:background="@mipmap/ic_step_recipe_bg">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_recipe_step_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="12dp"
+        android:layout_weight="0.32"
+        android:orientation="vertical">
+
+    </FrameLayout>
+
+</LinearLayout>

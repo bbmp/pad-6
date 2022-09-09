@@ -1,0 +1,13 @@
+*.iml
+*.iws
+*.ipr
+gdb.setup
+build.gradle
+.idea/
+.gradle/
+local.properties
+*/build/
+*~
+*.swp
+/src/main/obj
+/.externalNativeBuild/
